@@ -1,0 +1,34 @@
+//Basic reset of the html page
+//universal selector
+//box-sizing: border-box : no extra padding or margin added to the element
+//except the height and width of the element */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  //1 rem is now = 10px to make the calculation based on rem easier for future
+  ///*But using px as a unit for defining the value of one rem takes away the power away from the user to override the
+  // default font size i.e the value of 1 rem by changing font size of the browser
+  ///*takes the default font size 16px (10/16)*100 = 62.5 % so now our 1rem = 62.5 % of the browser's font size
+  //which by default has a value of 16px this also allows the user to zoom in on the page i.e
+  //increasing all the measurements of the page with zoom
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
