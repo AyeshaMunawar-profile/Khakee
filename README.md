@@ -1,3 +1,17 @@
+#Khakee 
+
+## Project description 
+Khakee is a website that allows artists to display their artwork and allow them to take commission work from my client as well as sell their paintings online.
+
+I used React.js along with sass for creating the front-end of the project and used firebase for user authentication , Stipe.js for payment processing and reduc for connecting to the backend  
+
+## Technologies I used in this project 
+1) REACT.js for creating the front-end of the app 
+2) SASS for writing styles 
+3) Stripe.js for processing payments 
+4) Redux for managing the calls to backend and APIs 
+5) Firebase for user authentication 
+   
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
