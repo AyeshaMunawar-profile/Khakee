@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SASS/Abstract/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SASS/Abstract/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SASS/Abstract/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SASS/Base/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SASS/Base/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SASS/Base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SASS/Base/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SASS/Components/_categoriesmenu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SASS/Pages/_homepage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SASS/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +64,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Khakee" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\My Coding Projects\Khakee\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -107,6 +96,7 @@
       <workItem from="1623096643754" duration="353000" />
       <workItem from="1623151194645" duration="432000" />
       <workItem from="1623151654232" duration="1405000" />
+      <workItem from="1623177522878" duration="319000" />
     </task>
     <servers />
   </component>
