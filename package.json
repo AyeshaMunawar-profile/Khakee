@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "eslint-config-prettier-check": "^1.0.0",
+    "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -19,7 +20,8 @@
     "eject": "react-scripts eject",
     "eslint-check": "eslint-config-prettier index.js",
     "lint": "eslint .",
-    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\""
+    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\"",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +47,7 @@
     "@typescript-eslint/parser": "^4.26.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.28.0",
+    "eslint-config-auto": "^0.7.1",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react-app": "^6.0.0",
@@ -59,6 +62,7 @@
     "eslint-plugin-testing-library": "^3.10.2",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
+    "node-sass": "^6.0.0",
     "prettier": "^2.3.1"
   },
   "husky": {
