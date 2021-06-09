@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/HomePage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HomePage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/category-menu/category-menu.componenet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/category-menu/category-menu.componenet.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/category-menu/category-menu.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/category-menu/category-menu.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/menu-item/menu-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/menu-item/menu-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/menu-item/menu-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/menu-item/menu-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/homepage/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/homepage/homepage.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Base/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Base/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +88,18 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\My Coding Projects\Khakee\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Practice Projects\Khakee\khakee\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Khakee\src\Components\menu-item" />
+      <recent name="D:\Khakee\src\Pages\homepage" />
+      <recent name="D:\Khakee\src\Container" />
+      <recent name="D:\Khakee\src\Pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -103,7 +119,7 @@
       <workItem from="1623151194645" duration="432000" />
       <workItem from="1623151654232" duration="1405000" />
       <workItem from="1623177522878" duration="319000" />
-      <workItem from="1623218673485" duration="311000" />
+      <workItem from="1623218673485" duration="13587000" />
     </task>
     <servers />
   </component>
