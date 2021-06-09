@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage/HomePage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HomePage.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -35,11 +41,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="home" />
-                    <option name="lastUsedInstant" value="1623149594" />
+                    <option name="lastUsedInstant" value="1623217933" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="homepage" />
-                    <option name="lastUsedInstant" value="1623149593" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1623217909" />
                   </RecentBranch>
                 </list>
               </option>
@@ -97,6 +103,7 @@
       <workItem from="1623151194645" duration="432000" />
       <workItem from="1623151654232" duration="1405000" />
       <workItem from="1623177522878" duration="319000" />
+      <workItem from="1623218673485" duration="311000" />
     </task>
     <servers />
   </component>
