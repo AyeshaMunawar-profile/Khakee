@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/category-menu/category-menu.componenet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/category-menu/category-menu.componenet.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/category-menu/category-menu.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/category-menu/category-menu.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/menu-item/menu-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/menu-item/menu-item.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/menu-item/menu-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/menu-item/menu-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Container/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/homepage/homepage.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/homepage/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/homepage/homepage.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/Base/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Base/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +105,7 @@
       <workItem from="1623151194645" duration="432000" />
       <workItem from="1623151654232" duration="1405000" />
       <workItem from="1623177522878" duration="319000" />
-      <workItem from="1623218673485" duration="13587000" />
+      <workItem from="1623218673485" duration="13667000" />
     </task>
     <servers />
   </component>
