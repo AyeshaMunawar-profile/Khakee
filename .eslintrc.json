@@ -17,6 +17,7 @@
   },
   "plugins": ["react", "prettier", "react-hooks"],
   "rules": {
+    "react/prop-types": "off" ,
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": [
       "error",
