@@ -65,13 +65,20 @@
     .title {
       font-weight: bold;
       margin-bottom: 6px;
-      font-size: 2.3rem;
+      font-size: 2.5rem;
       color: $color-grey--3;
     }
 
     .subtitle {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       font-weight: normal;
     }
+  }
+}
+
+@media (max-width: 860px) {
+  .menu-item.large {
+    order: 1;
+    grid-column: span 1 !important;
   }
 }

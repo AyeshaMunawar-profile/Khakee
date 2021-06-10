@@ -47,7 +47,7 @@ class CategoryMenu extends Component {
           title: "Sculptures",
           imageUrl:
             "https://b4s5x6t6.stackpathcdn.com/wp-content/uploads/2019/11/hb_200178.jpg",
-          id: 5,
+          id: 6,
           linkUrl: "shop/sculptures"
         }
       ]
