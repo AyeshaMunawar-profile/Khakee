@@ -1,3 +1,25 @@
+# Khakee
+### _Paint yourself ..._
+A ecommerce website created in React that allows an artist to sell their artwork online 
+
+## Features 
+1) Use authentication using Firebase 
+2) Functionalities related to buying a product i.e adding a product to cart or adding it to wishlist 
+3) Conducting payment using stripe.js 
+4) Showing each individual artwork with its gallery and description video
+5) Allowing user to hire the artist for commission work after filling a detailed form 
+6) Getting an update related to the painting ordered i.e basic sketch , 1t layer etc. and getting a feedback from the client using a chat 
+7) Adding review to the product after delivery 
+8) Add users to newsletter
+9) Show instagram feed 
+10) Allow users to share any painting via instagram facebook twitter or pinterest 
+
+## Technologies used
+1) React.js for Front-end 
+2) Ant Design for UI 
+3) Strip.js for processing payments
+4) Firebase for user authentication 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
