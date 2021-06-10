@@ -31,6 +31,7 @@
 
   &.large {
     order: 1;
+    grid-column: span 2;
   }
 
   &:first-child {
