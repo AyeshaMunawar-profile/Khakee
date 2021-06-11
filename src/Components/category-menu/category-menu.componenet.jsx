@@ -25,7 +25,7 @@ class CategoryMenu extends Component {
           imageUrl:
             "https://i.pinimg.com/originals/3b/1e/d7/3b1ed796949ff915fde488ed59a2469b.jpg",
           id: 3,
-          linkUrl: "shop/Concept Art"
+          linkUrl: "shop/Concept-Art"
         },
         {
           title: "Digital Paintings",
@@ -33,7 +33,7 @@ class CategoryMenu extends Component {
             "https://static.proko.com/products/images/aaron-westerberg-masterpiece-demo-aaron-westerberg-demo-thumbnail-800x450x2.jpg",
           size: "large",
           id: 4,
-          linkUrl: "shop/digitalpaintings"
+          linkUrl: "shop/digital-paintings"
         },
         {
           title: "Sketches",
@@ -56,8 +56,8 @@ class CategoryMenu extends Component {
   render() {
     return (
       <div className="category-menu">
-        {this.state.sections.map(({ title, id, imageUrl, size }) => (
-          <MenuItem title={title} imgUrl={imageUrl} key={id} size={size} />
+        {this.state.sections.map(({ id, ...otherSectionProps }) => (
+          <MenuItem {...otherSectionProps} key={id} />
         ))}
       </div>
     );
