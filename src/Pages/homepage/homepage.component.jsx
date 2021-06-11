@@ -1,6 +1,6 @@
-import React from "react";
-import "./homepage.styles.scss";
-import CategoryMenu from "../../Components/category-menu/category-menu.componenet";
+import React from "react"
+import "./homepage.styles.scss"
+import CategoryMenu from "../../Components/category-menu/category-menu.componenet"
 
 const HomePage = () => (
   <>
@@ -8,6 +8,6 @@ const HomePage = () => (
       <CategoryMenu />
     </div>
   </>
-);
+)
 
-export default HomePage;
+export default HomePage

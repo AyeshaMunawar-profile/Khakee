@@ -1,7 +1,7 @@
-import React from "react";
-import HomePage from "../Pages/homepage/homepage.component";
-import "../SASS/main.scss";
-import { Route, Switch } from "react-router-dom";
+import React from "react"
+import HomePage from "../Pages/homepage/homepage.component"
+import "../SASS/main.scss"
+import { Route, Switch } from "react-router-dom"
 
 const SketchesPage = () => (
   <>
@@ -9,7 +9,7 @@ const SketchesPage = () => (
       <h1>Sketches Page</h1>
     </div>
   </>
-);
+)
 function App() {
   return (
     <>
@@ -19,7 +19,7 @@ function App() {
         <Route path={"/sketches"} component={SketchesPage} />
       </Switch>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
