@@ -1,17 +1,33 @@
+//Neutral colors : Black White and Grey
 $color-white: #fdfdfc;
 $color-black: #0f0e0c;
-$color-off-white--0: #eae7dc;
-$color-coffee--0: #d8c3a5;
-$color-coffee--1: #bb9f79;
 $color-grey--0: #949187;
 $color-grey--1: #555450;
 $color-grey--2: #33312d;
-$color-grey--3: #161513;
-$color-red--0: #e98074;
-$color-red--1: #e85a4f;
-$color-red--2: #aa1d13;
-$color-red--3: #5a1510;
-$color-red--4: #2a0705;
+$color-grey--3: #2c2c2b;
+
+//primary colors : Coffee Brown and Baby Pink
+$color-off-white--0: #eae7dc;
+$color-coffee---1: #efe3a7;
+$color-coffee--0: #d8c3a5;
+$color-coffee--1: #bb9f79;
+$color-red---2: #e98074;
+$color-red---1: #e85a4f;
+$color-red--0: #D93D2D;
+$color-red--1: #aa1d13;
+$color-red--2: #5a1510;
+$color-red--3: #2a0705;
+
+//tertiary colors : Olive Green
+$color-green---3: #E3E1A9;
+$color-green---2: #C3C191;
+$color-green---1: #D1D278;
+$color-green---0: #B6D267;
+$color-green--1: #8AA35B;
+$color-green--2: #758946;
+$color-green--3: #546234;
+$color-green--4: #323A20;
+$color-green--5: #1F2318;
 
 //Font size
 $default-font-size: 1.6rem;
