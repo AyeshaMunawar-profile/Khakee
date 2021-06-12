@@ -5,7 +5,7 @@
 	"tabWidth": 2,
 	"trailingComma": "none",
 	"bracketSpacing": false,
-	"semi": false,
+	"semi": true,
 	"useTabs": true,
 	"jsxBracketSameLine": false
 }
