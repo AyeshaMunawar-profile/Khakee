@@ -1,4 +1,11 @@
 {
-  "endOfLine": "auto",
-  "trailingComma": "none"
+	"endOfLine": "auto",
+	"doubleQuote": true,
+	"printWidth": 120,
+	"tabWidth": 2,
+	"trailingComma": "none",
+	"bracketSpacing": false,
+	"semi": true,
+	"useTabs": true,
+	"jsxBracketSameLine": false
 }
