@@ -5,9 +5,9 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: inherit !important;
 }
 
 :root {
@@ -17,13 +17,13 @@
   ///*takes the default font size 16px (10/16)*100 = 62.5 % so now our 1rem = 62.5 % of the browser's font size
   //which by default has a value of 16px this also allows the user to zoom in on the page i.e
   //increasing all the measurements of the page with zoom
-  font-size: 62.5%;
+  font-size: 62.5% !important;
 }
 
 body {
   margin: 0;
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-  "Droid Sans", "Helvetica Neue", sans-serif;
+  "Droid Sans", "Helvetica Neue", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
