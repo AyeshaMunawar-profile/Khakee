@@ -5,69 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/conceptart/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/digital paintings/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/digital paintings/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/digital paintings/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/digital paintings/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/digital paintings/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/digital paintings/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/digital paintings/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/digital paintings/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/digital paintings/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/digital paintings/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/landscapes/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/landscapes/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/landscapes/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/landscapes/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/landscapes/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/landscapes/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/portraits/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/portraits/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/portraits/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/portraits/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/portraits/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/portraits/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/portraits/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/portraits/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sculptures/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sculptures/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sculptures/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sculptures/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sculptures/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sculptures/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sculptures/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sculptures/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/12.jpg.crdownload" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/images/shop items/sketches/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Common/Brusher-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/fonts/Brusher-Regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Common/Brusher-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/fonts/Brusher-Regular.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Common/Brusher-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/fonts/Brusher-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/Abstract/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Abstract/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/Base/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Base/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" beforeDir="false" afterPath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +116,7 @@
       <workItem from="1623485397930" duration="2947000" />
       <workItem from="1623493326662" duration="101000" />
       <workItem from="1623493441294" duration="877000" />
-      <workItem from="1623494927097" duration="3025000" />
+      <workItem from="1623494927097" duration="3621000" />
     </task>
     <servers />
   </component>
