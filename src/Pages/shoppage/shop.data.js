@@ -1,6 +1,6 @@
 const SHOP_DATA = [
 	{
-		id: 1,
+		id: "1",
 		categoryName: "Portraits",
 		routeName: "portraits",
 		items: [
@@ -329,7 +329,7 @@ const SHOP_DATA = [
 		]
 	},
 	{
-		id: 5,
+		id: 6,
 		categoryName: "Sketches",
 		routeName: "sketches",
 		items: [
