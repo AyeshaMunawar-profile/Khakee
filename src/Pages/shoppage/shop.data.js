@@ -1,246 +1,403 @@
 const SHOP_DATA = [
 	{
 		id: 1,
-		title: "Portraits",
+		categoryName: "Portraits",
 		routeName: "portraits",
 		items: [
 			{
 				id: 1,
-				name: "Brown Brim",
-				imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-				price: 25
+				title: "Father",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/portraits/1.jpg",
+				price: 25000
 			},
 			{
 				id: 2,
-				name: "Blue Beanie",
-				imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
-				price: 18
+				title: "Maria",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/portraits/2.jpg",
+				price: 30000
 			},
 			{
 				id: 3,
-				name: "Brown Cowboy",
-				imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
-				price: 35
+				title: "Village girl",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/portraits/3.jpg",
+				price: 40000
 			},
 			{
 				id: 4,
-				name: "Grey Brim",
-				imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
-				price: 25
+				title: "Euphoria",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/portraits/4.jpg",
+				price: 55000
 			},
 			{
 				id: 5,
-				name: "Green Beanie",
-				imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
-				price: 18
+				title: "Gypsy girl",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/portraits/5.jpg",
+				price: 20000
 			},
 			{
 				id: 6,
-				name: "Palm Tree Cap",
-				imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
-				price: 14
+				title: "Peace of mind",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/portraits/6.jpg",
+				price: 14000
 			},
 			{
 				id: 7,
-				name: "Red Beanie",
-				imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
-				price: 18
+				title: "Cesar Santos",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/portraits/7.jpg",
+				price: 18000
 			},
 			{
 				id: 8,
-				name: "Wolf Cap",
-				imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
-				price: 14
+				title: "Proko",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/portraits/8.jpg",
+				price: 14000
 			},
 			{
 				id: 9,
-				name: "Blue Snapback",
-				imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
-				price: 16
+				title: "Clown girl",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/portraits/9.jpg",
+				price: 16000
 			}
 		]
 	},
 	{
 		id: 2,
-		title: "Sneakers",
-		routeName: "sneakers",
+		categoryName: "Landscapes",
+		routeName: "landscapes",
 		items: [
 			{
 				id: 1,
-				name: "Adidas NMD",
-				imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
-				price: 220
+				title: "Greenery",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/landscapes/1.jpg",
+				price: 22000
 			},
 			{
 				id: 2,
-				name: "Adidas Yeezy",
-				imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
-				price: 280
+				title: "Peace",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/landscapes/2.jpg",
+				price: 28000
 			},
 			{
 				id: 3,
-				name: "Black Converse",
-				imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
-				price: 110
+				title: "Paradise",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/landscapes/3.jpg",
+				price: 110000
 			},
 			{
 				id: 4,
-				name: "Nike White AirForce",
-				imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
-				price: 160
+				title: "Silence",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/landscapes/4.jpg",
+				price: 160000
 			},
 			{
 				id: 5,
-				name: "Nike Red High Tops",
-				imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
-				price: 160
+				title: "Angel",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/landscapes/5.jpg",
+				price: 16000
 			},
 			{
 				id: 6,
-				name: "Nike Brown High Tops",
-				imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
-				price: 160
+				title: "Solidarity",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/landscapes/6.jpg",
+				price: 16000
 			},
 			{
 				id: 7,
-				name: "Air Jordan Limited",
-				imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
-				price: 190
+				title: "Crashing waves",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/landscapes/7.jpg",
+				price: 19000
 			},
 			{
 				id: 8,
-				name: "Timberlands",
-				imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
-				price: 200
+				title: "The Rush",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/landscapes/8.jpg",
+				price: 200000
+			},
+			{
+				id: 9,
+				title: "Escapism",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/landscapes/9.jpg",
+				price: 600000
+			},
+			{
+				id: 10,
+				title: "Autumn leaves",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/landscapes/10.jpg",
+				price: 100000
 			}
 		]
 	},
 	{
 		id: 3,
-		title: "Jackets",
-		routeName: "jackets",
+		categoryName: "Digital Paintings",
+		routeName: "digital-paintings",
 		items: [
 			{
 				id: 1,
-				name: "Black Jean Shearling",
-				imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
-				price: 125
+				title: "A simple village",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/digital-paintings/1.jpg",
+				price: 125000
 			},
 			{
 				id: 2,
-				name: "Blue Jean Jacket",
-				imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
-				price: 90
+				title: "A clown shop",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/digital-paintings/2.jpg",
+				price: 90000
 			},
 			{
 				id: 3,
-				name: "Grey Jean Jacket",
-				imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
-				price: 90
+				title: "A dangerous path",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/digital-paintings/3.jpg",
+				price: 90000
 			},
 			{
 				id: 4,
-				name: "Brown Shearling",
-				imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
-				price: 165
+				title: "Alien Force",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/digital-paintings/4.jpg",
+				price: 165000
 			},
 			{
 				id: 5,
-				name: "Tan Trench",
-				imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-				price: 185
+				title: "A barren city",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/digital-paintings/5.jpg",
+				price: 185000
+			},
+			{
+				id: 6,
+				title: "Nature",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/digital-paintings/6.jpg",
+				price: 139000
+			},
+			{
+				id: 7,
+				title: "Sliver lining",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/digital-paintings/7.jpg",
+				price: 128000
+			},
+			{
+				id: 8,
+				title: "A never ending journey",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/digital-paintings/8.jpg",
+				price: 335000
+			},
+			{
+				id: 9,
+				title: "Waterfall",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/digital-paintings/9.jpg",
+				price: 455000
+			},
+			{
+				id: 10,
+				title: "A little girl with hope",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/digital-paintings/10.jpg",
+				price: 235000
 			}
 		]
 	},
 	{
 		id: 4,
-		title: "Womens",
-		routeName: "womens",
+		categoryName: "Concept-art",
+		routeName: "concept-art",
 		items: [
 			{
 				id: 1,
-				name: "Blue Tanktop",
-				imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
-				price: 25
+				title: "Solace",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/1.jpg",
+				price: 25000
 			},
 			{
 				id: 2,
-				name: "Floral Blouse",
-				imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
-				price: 20
+				title: "Dreams",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/2.jpg",
+				price: 20000
 			},
 			{
 				id: 3,
-				name: "Floral Dress",
-				imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
-				price: 80
+				title: "Innocence",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/3.jpg",
+				price: 80000
 			},
 			{
 				id: 4,
-				name: "Red Dots Dress",
-				imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
-				price: 80
+				title: "A new hope",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/4.jpg",
+				price: 80000
 			},
 			{
 				id: 5,
-				name: "Striped Sweater",
-				imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
-				price: 45
+				title: "Freedom",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/5.jpg",
+				price: 45000
 			},
 			{
 				id: 6,
-				name: "Yellow Track Suit",
-				imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
-				price: 135
+				title: "Impossible",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/6.jpg",
+				price: 135000
 			},
 			{
 				id: 7,
-				name: "White Blouse",
-				imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
-				price: 20
+				title: "labyrinth",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/7.jpg",
+				price: 91000
+			},
+			{
+				id: 8,
+				title: "Self",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/8.jpg",
+				price: 363000
+			},
+			{
+				id: 9,
+				title: "A simple happy morning",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/9.jpg",
+				price: 87000
+			},
+			{
+				id: 10,
+				title: "Unknown future",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/10.jpg",
+				price: 92000
+			},
+			{
+				id: 11,
+				title: "Second thoughts",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/11.jpg",
+				price: 23000
+			},
+			{
+				id: 12,
+				title: "Lion Heart",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/concept-art/12.jpg",
+				price: 80000
 			}
 		]
 	},
 	{
 		id: 5,
-		title: "Mens",
-		routeName: "mens",
+		categoryName: "Sculptures",
+		routeName: "sculptures",
 		items: [
 			{
 				id: 1,
-				name: "Camo Down Vest",
-				imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
-				price: 325
+				title: "Face of anger",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sculptures/1.jpg",
+				price: 3250000
 			},
 			{
 				id: 2,
-				name: "Floral T-shirt",
-				imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
-				price: 20
+				title: "Every Human",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sculptures/2.jpg",
+				price: 200000
 			},
 			{
 				id: 3,
-				name: "Black & White Longsleeve",
-				imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
-				price: 25
+				title: "Cross roads",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sculptures/3.jpg",
+				price: 250000
 			},
 			{
 				id: 4,
-				name: "Pink T-shirt",
-				imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
-				price: 25
+				title: "Mother",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sculptures/4.jpg",
+				price: 250000
 			},
 			{
 				id: 5,
-				name: "Jean Long Sleeve",
-				imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
-				price: 40
+				title: "Thoughts and prayers",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sculptures/5.jpg",
+				price: 400000
 			},
 			{
 				id: 6,
-				name: "Burgundy T-shirt",
-				imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
-				price: 25
+				title: "A girl",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sculptures/6.jpg",
+				price: 250000
+			},
+			{
+				id: 7,
+				title: "Labour",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sculptures/7.jpg",
+				price: 270000
+			},
+			{
+				id: 8,
+				title: "Smudged past",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sculptures/8.jpg",
+				price: 450000
+			}
+		]
+	},
+	{
+		id: 5,
+		categoryName: "Sketches",
+		routeName: "sketches",
+		items: [
+			{
+				id: 1,
+				title: "She knows",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/1.jpg",
+				price: 3250000
+			},
+			{
+				id: 2,
+				title: "My friend",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/2.jpg",
+				price: 200000
+			},
+			{
+				id: 3,
+				title: "Emotions",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/3.jpg",
+				price: 250000
+			},
+			{
+				id: 4,
+				title: "Force",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/4.jpg",
+				price: 250000
+			},
+			{
+				id: 5,
+				title: "Kutba",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/5.jpg",
+				price: 400000
+			},
+			{
+				id: 6,
+				title: "Soldier",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/6.jpg",
+				price: 250000
+			},
+			{
+				id: 7,
+				title: "Amputated souls",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/7.jpg",
+				price: 270000
+			},
+			{
+				id: 8,
+				title: "Generations of pain",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/8.jpg",
+				price: 450000
+			},
+			{
+				id: 9,
+				title: "Rebellion",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/9.jpg",
+				price: 450000
+			},
+			{
+				id: 10,
+				title: "Sister",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/10.jpg",
+				price: 450000
+			},
+			{
+				id: 11,
+				title: "A lady with hope",
+				imageUrl: "%PUBLIC_URL%/Common/images/shop-items/sketches/11.jpg",
+				price: 450000
 			}
 		]
 	}
