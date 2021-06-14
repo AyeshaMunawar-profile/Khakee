@@ -6,12 +6,13 @@ import "../SASS/main.scss";
 import "antd/dist/antd.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 function App() {
 	return (
 		<>
 			<Switch>
 				<Route exact path={"/"} component={HomePage} />
-				<Route path={"/shop"} component={ShopPage} />
+				<Route exact path={"/shop"} component={ShopPage} />
 			</Switch>
 		</>
 	);

@@ -1,25 +1,33 @@
 import "./collection-preview.styles.scss";
-import {Typography} from "antd";
+import {Typography, Card} from "antd";
 const {Title} = Typography;
 import Slider from "react-slick";
 
+const {Meta} = Card;
 const CollectionPreview = ({title, items}) => {
-	const settings = {
+	const sliderSettings = {
 		dots: true,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 3,
-		slidesToScroll: 3
+		slidesToScroll: 3,
+		autoplay: false
 	};
 	return (
 		<>
 			<div className={"collection-preview"}>
 				<Title className={"collection-heading section-heading section-heading--sub"}>{title.toUpperCase()}</Title>
-				<Slider {...settings}>
+				<Slider {...sliderSettings}>
 					{items.map((item) => {
 						return (
 							<div key={`title-${item.id}`}>
-								<h1>{item.title}</h1>
+								<Card
+									hoverable
+									cover={<img alt={item.title} src={item.imageUrl} className={"collection-preview-cover"} />}
+									className={"u-center-text collection-preview-item"}
+								>
+									<Meta title={item.title} description={`$${item.price}`} />
+								</Card>
 							</div>
 						);
 					})}
