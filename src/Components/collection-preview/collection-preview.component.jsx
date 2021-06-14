@@ -11,13 +11,41 @@ const CollectionPreview = ({title, items}) => {
 		speed: 500,
 		slidesToShow: 3,
 		slidesToScroll: 3,
-		autoplay: false
+		autoplay: false,
+		initialSlide: 0,
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3,
+					infinite: true,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					initialSlide: 2,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 800,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
 	};
 	return (
 		<>
 			<div className={"collection-preview"}>
 				<Title className={"collection-heading section-heading section-heading--sub"}>{title.toUpperCase()}</Title>
-				<Slider {...sliderSettings}>
+				<Slider {...sliderSettings} className={"collection-slider"}>
 					{items.map((item) => {
 						return (
 							<div key={`title-${item.id}`}>

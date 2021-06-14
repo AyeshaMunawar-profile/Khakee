@@ -1,3 +1,5 @@
+@import "../../SASS/Abstract/variables";
+
 .collection-preview-item {
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -5,6 +7,9 @@
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	overflow: hidden;
+  height: 40rem !important;
+width: 35rem !important;
+
 }
 .collection-preview-cover {
 	border-radius: 10px;
@@ -13,8 +18,8 @@
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	object-fit: cover;
-	height: 30rem;
-	width: 30rem;
+  height: 30rem;
+  width: 100%;
 }
 .slick-slide {
 	display: flex !important;
@@ -22,3 +27,9 @@
 	justify-content: center;
 	align-items: center;
 }
+.slick-prev:before, .slick-next:before {
+  color: $color-red--0 !important;
+  font-size: 3rem !important;
+  z-index: 1 !important;
+}
+
