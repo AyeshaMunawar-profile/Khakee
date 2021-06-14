@@ -1,119 +1,116 @@
 @font-face {
-  font-family: "Brusher";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Brusher"), url("../../Common/fonts/Brusher-Regular.otf") format("otf");
-  src: local("Brusher"), url("../../Common/fonts/Brusher-Regular.eot") format("eot");
-  src: local("Brusher"), url("../../Common/fonts/Brusher-Regular.ttf") format("ttf");
+	font-family: "Brusher";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Brusher"), url("../../Common/fonts/Brusher-Regular.otf") format("otf");
+	src: local("Brusher"), url("../../Common/fonts/Brusher-Regular.eot") format("eot");
+	src: local("Brusher"), url("../../Common/fonts/Brusher-Regular.ttf") format("ttf");
 }
 
 .u-center-text {
-  text-align: center !important;
+	text-align: center !important;
 }
 
 .u-right-text {
-  text-align: right !important;
+	text-align: right !important;
 }
 
 .u-left-text {
-  text-align: left !important;
+	text-align: left !important;
 }
 
 .u-margin-bottom-huge {
-  margin-bottom: 10rem !important;
+	margin-bottom: 10rem !important;
 }
 
 .u-margin-bottom-big {
-  margin-bottom: 8rem !important;
+	margin-bottom: 8rem !important;
 }
 
 .u-margin-bottom-medium {
-  margin-bottom: 4rem !important;
+	margin-bottom: 4rem !important;
 }
 
 .u-margin-bottom-small {
-  margin-bottom: 1.5rem !important;
+	margin-bottom: 1.5rem !important;
 }
 
 .u-margin-top-small {
-  margin-top: 1.5rem !important;
+	margin-top: 1.5rem !important;
 }
 
 .u-margin-top-medium {
-  margin-top: 4rem !important;
+	margin-top: 4rem !important;
 }
 
 .u-margin-top-big {
-  margin-top: 8rem !important;
+	margin-top: 8rem !important;
 }
 
 .u-margin-top-huge {
-  margin-top: 10rem !important;
+	margin-top: 10rem !important;
 }
 
 .z-index--2 {
-  z-index: -2 !important;
+	z-index: -2 !important;
 }
 
 .z-index--1 {
-  z-index: -1 !important;
+	z-index: -1 !important;
 }
 
 .z-index-0 {
-  z-index: 0 !important;
+	z-index: 0 !important;
 }
 
 .z-index-1 {
-  z-index: 1 !important;
+	z-index: 1 !important;
 }
 
 .z-index-2 {
-  z-index: 2 !important;
+	z-index: 2 !important;
 }
 
 .d-flex {
-  display: flex !important;
+	display: flex !important;
 }
 
 .d-justify-center {
-  justify-content: center !important;
+	justify-content: center !important;
 }
 
 .d-align-items-stretch {
-  align-items: stretch !important;
+	align-items: stretch !important;
 }
 
 .h-cursor-pointer:hover {
-  cursor: pointer !important;
+	cursor: pointer !important;
 }
 
 .font-decor {
-  font-family: "Brusher", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-  "Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: "Brusher", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .font-primary {
-  font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-  "Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .font-secondary {
-  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-  "Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .font-weight-bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .font-weight-bolder {
-  font-weight: bolder;
+	font-weight: bolder;
 }
 
 .font-weight-normal {
-  font-weight: normal;
+	font-weight: normal;
 }
 
 .font-weight-lighter {
-  font-weight: lighter;
+	font-weight: lighter;
 }

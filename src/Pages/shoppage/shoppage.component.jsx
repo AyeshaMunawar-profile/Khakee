@@ -15,9 +15,11 @@ class ShopPage extends Component {
 		return (
 			<>
 				<div className={"shop-page"}>
-					{SHOP_DATA.map((collection) => (
-						<CollectionPreview key={collection.id} title={collection.categoryName} items={collection.items} />
-					))}
+					<div className={"section"}>
+						{SHOP_DATA.map((collection) => (
+							<CollectionPreview key={collection.id} title={collection.categoryName} items={collection.items} />
+						))}
+					</div>
 				</div>
 			</>
 		);

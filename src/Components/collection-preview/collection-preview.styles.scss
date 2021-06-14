@@ -1,26 +1,5 @@
 @import "../../SASS/Abstract/variables";
 
-.collection-preview-item {
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-	overflow: hidden;
-	height: 40rem !important;
-	width: 35rem !important;
-}
-
-.collection-preview-cover {
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-	object-fit: cover;
-	height: 30rem;
-	width: 100%;
-}
 .slick-list {
 	width: 100%;
 }
@@ -30,12 +9,16 @@
 	justify-content: center;
 	align-items: center;
 }
+.slick-track {
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+}
 .slick-next {
-  z-index: 5;
+	z-index: 5;
 	right: 3% !important;
 }
 .slick-prev {
-  z-index: 5;
+	z-index: 5;
 	left: 3% !important;
 }
 .slick-prev:before,
@@ -43,4 +26,14 @@
 	color: $color-red--0 !important;
 	font-size: 3rem !important;
 	z-index: 5 !important;
+}
+
+.btn-add-to-cart {
+	margin: 1rem;
+}
+.slick-dots li button:before {
+	font-size: 1.5rem !important;
+}
+.slick-dots li.slick-active button:before {
+	color: $color-red--0 !important;
 }
