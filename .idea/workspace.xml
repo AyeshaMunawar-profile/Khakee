@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/collection-preview/collection-preview.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/collection-preview/collection-preview.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/collection-preview/collection-preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/collection-preview/collection-preview.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Container/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/shoppage/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/shoppage/shop.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/shoppage/shoppage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/shoppage/shoppage.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/Base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/Base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Base/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\My Coding Projects\Khakee\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -127,7 +122,8 @@
       <workItem from="1623493326662" duration="101000" />
       <workItem from="1623493441294" duration="877000" />
       <workItem from="1623494927097" duration="3621000" />
-      <workItem from="1623582930741" duration="10221000" />
+      <workItem from="1623582930741" duration="11992000" />
+      <workItem from="1623643135383" duration="1608000" />
     </task>
     <servers />
   </component>
