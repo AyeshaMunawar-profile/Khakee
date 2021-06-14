@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Menu, Button} from "antd";
+import {Menu, Button, Badge} from "antd";
 import "./header.styles.scss";
 import SHOP_DATA from "../../Pages/shoppage/shop.data";
 import {UserAddOutlined, ShoppingCartOutlined} from "@ant-design/icons";
@@ -35,7 +35,15 @@ const Header = () => {
 					<Menu.Item key="blog" className={"menu-blog"}>
 						Blog
 					</Menu.Item>
-					<Menu.Item key="cart" icon={<ShoppingCartOutlined />} className={"menu-cart"}>
+					<Menu.Item
+						key="cart"
+						icon={
+							<Badge count={5} className={"cart-count"}>
+								<ShoppingCartOutlined />
+							</Badge>
+						}
+						className={"menu-cart"}
+					>
 						Cart
 					</Menu.Item>
 					<Menu.Item key="sign-up" className={"menu-btn-sign-up btn"}>
