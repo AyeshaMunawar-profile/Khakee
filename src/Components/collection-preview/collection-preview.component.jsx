@@ -15,7 +15,7 @@ const CollectionPreview = ({title, items}) => {
 		initialSlide: 0,
 		responsive: [
 			{
-				breakpoint: 1200,
+				breakpoint: 2400,
 				settings: {
 					slidesToShow: 3,
 					slidesToScroll: 3,
@@ -24,7 +24,7 @@ const CollectionPreview = ({title, items}) => {
 				}
 			},
 			{
-				breakpoint: 1024,
+				breakpoint: 1100,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 2,
