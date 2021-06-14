@@ -1,9 +1,9 @@
 import "./collection-preview.styles.scss";
-import {Typography, Card} from "antd";
+import {Typography} from "antd";
 const {Title} = Typography;
 import Slider from "react-slick";
+import CollectionItem from "../collection-item/collection-item.component";
 
-const {Meta} = Card;
 const CollectionPreview = ({title, items}) => {
 	const sliderSettings = {
 		dots: true,
@@ -11,7 +11,7 @@ const CollectionPreview = ({title, items}) => {
 		speed: 500,
 		slidesToShow: 3,
 		slidesToScroll: 3,
-		autoplay: false,
+		autoplay: true,
 		initialSlide: 0,
 		responsive: [
 			{
@@ -36,28 +36,28 @@ const CollectionPreview = ({title, items}) => {
 				breakpoint: 800,
 				settings: {
 					slidesToShow: 1,
-					slidesToScroll: 1
+					slidesToScroll: 1,
+					dots: false
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots: false,
+					arrows: false
 				}
 			}
 		]
 	};
 	return (
 		<>
-			<div className={"collection-preview"}>
+			<div className={"collection-preview sub-section"}>
 				<Title className={"collection-heading section-heading section-heading--sub"}>{title.toUpperCase()}</Title>
 				<Slider {...sliderSettings} className={"collection-slider"}>
-					{items.map((item) => {
-						return (
-							<div key={`title-${item.id}`}>
-								<Card
-									hoverable
-									cover={<img alt={item.title} src={item.imageUrl} className={"collection-preview-cover"} />}
-									className={"u-center-text collection-preview-item"}
-								>
-									<Meta title={item.title} description={`$${item.price}`} />
-								</Card>
-							</div>
-						);
+					{items.map(({id, ...otherItemProps}) => {
+						return <CollectionItem key={id} {...otherItemProps} />;
 					})}
 				</Slider>
 			</div>

@@ -51,7 +51,7 @@ class CategoryMenu extends Component {
 	}
 	render() {
 		return (
-			<div className="category-menu">
+			<div className="category-menu section">
 				{this.state.sections
 					? this.state.sections.map(({id, ...otherSectionProps}) => <MenuItem {...otherSectionProps} key={id} />)
 					: ""}
