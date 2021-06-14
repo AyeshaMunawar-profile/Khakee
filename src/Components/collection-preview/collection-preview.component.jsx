@@ -36,7 +36,17 @@ const CollectionPreview = ({title, items}) => {
 				breakpoint: 800,
 				settings: {
 					slidesToShow: 1,
-					slidesToScroll: 1
+					slidesToScroll: 1,
+					dots: false
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots: false,
+					arrows: false
 				}
 			}
 		]
