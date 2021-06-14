@@ -1,23 +1,16 @@
-@import "../../SASS/Abstract/variables";
-
 .header {
 	width: 100%;
 }
-.menu-btn-sign-up:hover:after {
-	border-color: transparent !important;
+
+.menu-btn-sign-up:hover:after,
+.menu-btn-sign-up:active:after,
+.menu-btn-sign-up:focus:after
+.logo:hover:after,
+.logo:active:after,
+.logo:focus:after{
+	border-bottom-color: transparent !important;
 }
-.cart-count{
-	z-index: auto;
-	min-width: 15px;
-	height: 15px;
-	padding: 0 5px;
-	color: #fff;
-	font-weight: normal;
-	font-size: 5px;
-	line-height: 15px;
-	white-space: nowrap;
-	text-align: center;
-	background: $color-red--0;
-	border-radius: 10px;
-	box-shadow: 0 0 0 1px #fff;
+.anticon,
+.anticon-shopping-cart {
+	font-size: 1.8rem !important;
 }

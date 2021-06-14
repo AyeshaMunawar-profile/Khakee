@@ -3,8 +3,9 @@ import {Menu, Button, Badge} from "antd";
 import "./header.styles.scss";
 import SHOP_DATA from "../../Pages/shoppage/shop.data";
 import {UserAddOutlined, ShoppingCartOutlined} from "@ant-design/icons";
+import {withRouter} from "react-router";
 const {SubMenu} = Menu;
-const Header = () => {
+const Header = (props) => {
 	const [current, setCurrent] = useState("home");
 	const handleClick = (e) => {
 		console.log("click ", e);
@@ -14,6 +15,9 @@ const Header = () => {
 		<>
 			<div className={"header"}>
 				<Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
+					<Menu.Item key="logo" className={"logo btn"} onClick={() => props.history.push("/")}>
+						<img src={"../../Common//images/tape.png"} alt="logo" width={"100px"} />
+					</Menu.Item>
 					<Menu.Item key="home" className={"menu-home"}>
 						Home
 					</Menu.Item>
@@ -61,4 +65,4 @@ const Header = () => {
 		</>
 	);
 };
-export default Header;
+export default withRouter(Header);
