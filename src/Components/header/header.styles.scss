@@ -1,6 +1,23 @@
+@import "../../SASS/Abstract/variables";
+
 .header {
 	width: 100%;
 }
 .menu-btn-sign-up:hover:after {
 	border-color: transparent !important;
+}
+.cart-count{
+	z-index: auto;
+	min-width: 15px;
+	height: 15px;
+	padding: 0 5px;
+	color: #fff;
+	font-weight: normal;
+	font-size: 5px;
+	line-height: 15px;
+	white-space: nowrap;
+	text-align: center;
+	background: $color-red--0;
+	border-radius: 10px;
+	box-shadow: 0 0 0 1px #fff;
 }

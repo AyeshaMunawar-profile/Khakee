@@ -1,9 +1,12 @@
+.ant-menu{
+	padding: 1.6rem 1rem 1.6rem 1rem !important;
+	font-size: 1.8rem !important;
+}
+
 .ant-menu-horizontal {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
 	width: 100%;
-	height: 5rem;
 	justify-content: space-between;
+	padding: 2rem 1rem 0rem 1rem;
 }
 .ant-menu-item-selected {
 	color: $color-red--0 !important;
