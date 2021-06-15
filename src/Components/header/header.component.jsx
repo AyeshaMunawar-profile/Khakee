@@ -15,7 +15,7 @@ const Header = (props) => {
 		<>
 			<div className={"header"}>
 				<Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
-					<Menu.Item key="logo" className={"logo btn"} onClick={() => props.history.push("/")}>
+					<Menu.Item key="logo" className={"menu-logo btn"} onClick={() => props.history.push("/")}>
 						<img src={"../../Common//images/tape.png"} alt="logo" width={"100px"} />
 					</Menu.Item>
 					<Menu.Item key="home" className={"menu-home"}>
