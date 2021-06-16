@@ -1,9 +1,11 @@
 import React, {useState} from "react";
-import {Menu, Button, Badge} from "antd";
+import {Menu, Button, Badge, Typography} from "antd";
 import "./header.styles.scss";
 import {UserAddOutlined, ShoppingCartOutlined} from "@ant-design/icons";
 import {RouteComponentProps, withRouter} from "react-router";
 import SHOP_DATA from "../../Pages/shoppage/shop.data";
+
+const {Title} = Typography;
 
 const {SubMenu} = Menu;
 interface RouteParams {
@@ -25,7 +27,13 @@ const Header: React.FC<PropsType> = ({currentPage, history}) => {
 			<div className="header">
 				<Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
 					<Menu.Item key="logo" className="menu-logo btn" onClick={() => history.push("/")}>
-						<img src="../../Common/images/Logo/favicon/logo-192x192.png" alt="logo" width="70px" />
+						<img className="brand-image" src="../../Common/images/Logo/favicon/logo-192x192.png" alt="logo" />
+						<span className="brand-text">
+							<Title className="brand-name">Khakee</Title>
+							<Title level={5} className="brand-tag-line">
+								Paint yourself
+							</Title>
+						</span>
 					</Menu.Item>
 					<Menu.Item key="home" className="menu-home">
 						Home

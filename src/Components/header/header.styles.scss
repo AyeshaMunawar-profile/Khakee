@@ -1,12 +1,37 @@
 .header {
 	width: 100%;
 }
-.header .menu-logo{
+.header .ant-menu-horizontal{
+	line-height: 7rem;
+}
+.header .menu-logo {
 	margin-right: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.header .menu-logo .ant-menu-title-content{
+	display: flex;
+	align-items: center;
+}
+.header .menu-logo .brand-image{
+	width: 8rem;
+	height: auto;
+	margin-right: 1.5rem;
+}
+.header .menu-logo .brand-text .brand-name{
+	margin-bottom: 5px;
+}
+.header .menu-logo .brand-text .brand-tag-line{
+	letter-spacing: 0.3px;
+	margin-top: 5px;
+	margin-left: 2px;
+	font-style: italic;
 }
 .menu-btn-sign-up:hover:after,
 .menu-btn-sign-up:active:after,
-.menu-btn-sign-up:focus:after
+.menu-btn-sign-up:focus:after,
 .logo:hover:after,
 .logo:active:after,
 .logo:focus:after{
