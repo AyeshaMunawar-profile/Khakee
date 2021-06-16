@@ -122,6 +122,9 @@ h6.ant-typography , .ant-typography h6
 }
 
 //***************Forms*******************************
+.ant-form-item{
+	margin-bottom: 2rem !important;
+}
 .ant-form-item-label > label{
 	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
 	color: $color-grey--2 !important;
@@ -136,7 +139,7 @@ h6.ant-typography , .ant-typography h6
 	border-color: $color-green---0 !important;
 }
 .ant-form-item-control-input{
-	min-height: 3.4rem !important;
+	min-height: 4rem !important;
 }
 .ant-input:hover,.ant-input:focus,.ant-input:active,.ant-input-focused{
 	border-color: $color-green--1 !important;

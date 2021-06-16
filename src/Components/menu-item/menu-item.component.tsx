@@ -1,8 +1,10 @@
 import React from "react";
+import {Typography} from "antd";
 import {withRouter, RouteComponentProps} from "react-router-dom";
 import "./menu-item.styles.scss";
 import "../../SASS/Base/_utilities.scss";
 
+const {Title} = Typography;
 interface RouteParams {
 	id: string;
 }
@@ -28,8 +30,12 @@ const MenuItem: React.FC<PropsType> = ({...props}) => {
 		>
 			<div className="background-image" style={{backgroundImage: `url(${props.imageUrl}`}} />
 			<div className="content">
-				<h1 className="title font-primary">{props.title}</h1>
-				<span className="subtitle font-secondary">Shop Now</span>
+				<Title className="title font-primary u-margin-top-small">{props.title}</Title>
+				<span className="subtitle ">
+					<Title level={5} className="font-secondary font-weight-normal">
+						Shop Now
+					</Title>
+				</span>
 			</div>
 		</div>
 	);
