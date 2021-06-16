@@ -25,7 +25,7 @@ const Header: React.FC<PropsType> = ({currentPage, history}) => {
 			<div className="header">
 				<Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
 					<Menu.Item key="logo" className="menu-logo btn" onClick={() => history.push("/")}>
-						<img src="../../Common//images/tape.png" alt="logo" width="100px" />
+						<img src="../../Common/images/Logo/favicon/logo-192x192.png" alt="logo" width="70px" />
 					</Menu.Item>
 					<Menu.Item key="home" className="menu-home">
 						Home
