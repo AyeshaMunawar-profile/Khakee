@@ -1,10 +1,14 @@
 import "./collection-preview.styles.scss";
 import {Typography} from "antd";
-const {Title} = Typography;
 import Slider from "react-slick";
 import CollectionItem from "../collection-item/collection-item.component";
 
-const CollectionPreview = ({title, items}) => {
+const {Title} = Typography;
+interface Props {
+	title: string;
+	items: any;
+}
+const CollectionPreview: React.FC<Props> = ({title, items}) => {
 	const sliderSettings = {
 		dots: true,
 		infinite: true,
@@ -53,11 +57,19 @@ const CollectionPreview = ({title, items}) => {
 	};
 	return (
 		<>
-			<div className={"collection-preview sub-section"}>
-				<Title className={"collection-heading section-heading section-heading--sub"}>{title.toUpperCase()}</Title>
-				<Slider {...sliderSettings} className={"collection-slider"}>
-					{items.map(({id, ...otherItemProps}) => {
-						return <CollectionItem key={id} {...otherItemProps} />;
+			<div className="collection-preview sub-section">
+				<Title className="collection-heading section-heading section-heading--sub">{title.toUpperCase()}</Title>
+				<Slider {...sliderSettings} className="collection-slider">
+					{items.map((item: any) => {
+						return (
+							<CollectionItem
+								key={item.id}
+								id={item.id}
+								imageUrl={item.imageUrl}
+								price={item.price}
+								title={item.title}
+							/>
+						);
 					})}
 				</Slider>
 			</div>

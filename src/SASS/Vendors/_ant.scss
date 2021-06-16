@@ -1,17 +1,27 @@
 .ant-menu {
 	padding: 1.6rem 1rem 1.6rem 1rem !important;
-	font-size: 1.8rem !important;
+	font-size: 1.6rem !important;
 }
 .ant-menu-item-group-title {
-	font-size: 1.9rem !important;
+	font-size: 1.6rem !important;
 	color: $color-red---1 !important;
 	font-weight: bold !important;
 }
 .ant-menu-horizontal {
 	width: 100%;
 	justify-content: flex-end;
-	padding: 2rem 1rem 0rem 1rem;
+	padding: 3rem 1rem 3rem 1rem !important;
 }
+.ant-menu-vertical {
+	padding-top: 2rem !important;
+	padding-bottom: 2rem !important;
+}
+.ant-menu-vertical > .ant-menu-item, .ant-menu-vertical-left > .ant-menu-item, .ant-menu-vertical-right > .ant-menu-item, .ant-menu-inline > .ant-menu-item, .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title{
+	height: 5rem !important;
+	margin-top: 1rem !important;
+	margin-bottom: 1rem !important;
+}
+
 .ant-menu-item-selected {
 	color: $color-red---1 !important;
 }
