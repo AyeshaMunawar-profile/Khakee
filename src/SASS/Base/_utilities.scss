@@ -100,17 +100,21 @@
 }
 
 .font-weight-bold {
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
 .font-weight-bolder {
-	font-weight: bolder;
+	font-weight: bolder !important;
 }
 
 .font-weight-normal {
-	font-weight: normal;
+	font-weight: normal !important;
 }
 
 .font-weight-lighter {
-	font-weight: lighter;
+	font-weight: lighter !important;
+}
+
+.letter-spacing-small{
+	letter-spacing: 0.3px !important;
 }

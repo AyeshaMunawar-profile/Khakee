@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2021_10_49_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2021_10_49_AM__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SASS/Layout/_sections.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/header/header.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/header/header.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/sign-in/sign-in.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sign-in/sign-in.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/sign-up/sign-up.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sign-up/sign-up.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/authenticationpage/authenticationpage.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/authenticationpage/authenticationpage.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Abstract/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Abstract/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Base/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Base/_utilities.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +135,7 @@
       <workItem from="1623830328546" duration="30000" />
       <workItem from="1623830375952" duration="961000" />
       <workItem from="1623831470993" duration="511000" />
-      <workItem from="1623832016926" duration="2158000" />
+      <workItem from="1623832016926" duration="9530000" />
     </task>
     <servers />
   </component>
