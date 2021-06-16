@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2021_10_49_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2021_10_49_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/collection-preview/collection-preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/collection-preview/collection-preview.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Container/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/header/header.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/header/header.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +77,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/Common/images/shop-items/portraits" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.eslintrc.json" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="D:\My Coding Projects\Khakee\node_modules\eslint" />
@@ -82,6 +85,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\My Coding Projects\Khakee\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="D:\My Coding Projects\Khakee\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -123,7 +127,11 @@
       <workItem from="1623493441294" duration="877000" />
       <workItem from="1623494927097" duration="3621000" />
       <workItem from="1623582930741" duration="11992000" />
-      <workItem from="1623643135383" duration="1608000" />
+      <workItem from="1623643135383" duration="1712000" />
+      <workItem from="1623830328546" duration="30000" />
+      <workItem from="1623830375952" duration="961000" />
+      <workItem from="1623831470993" duration="511000" />
+      <workItem from="1623832016926" duration="2158000" />
     </task>
     <servers />
   </component>

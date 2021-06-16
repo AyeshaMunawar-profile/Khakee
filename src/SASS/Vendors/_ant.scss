@@ -1,3 +1,4 @@
+//***************Navigation Menu*******************************
 .ant-menu {
 	padding: 1.6rem 1rem 1.6rem 1rem !important;
 	font-size: 1.6rem !important;
@@ -67,6 +68,8 @@
 .ant-menu-item {
 	font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
 }
+
+//***************Buttons*******************************
 .ant-btn-primary,
 .ant-btn-primary:link {
 	height: 4.2rem !important;
@@ -98,4 +101,18 @@
 	background: $color-red---1 !important;
 	border-radius: 10px;
 	box-shadow: 0 0 0 1px #fff;
+}
+
+//***************Typography*******************************
+h1.ant-typography , .ant-typography h1{
+	font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+h2.ant-typography , .ant-typography h2,
+h3.ant-typography , .ant-typography h3,
+h4.ant-typography , .ant-typography h4,
+h5.ant-typography , .ant-typography h5,
+h6.ant-typography , .ant-typography h6
+{
+	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
 }
