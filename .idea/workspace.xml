@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Common/fonts/Matthias.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/fonts/Matthias.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/menu-item/menu-item.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/menu-item/menu-item.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/menu-item/menu-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/menu-item/menu-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/Layout/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Layout/_sections.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" beforeDir="false" afterPath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/sign-up/sign-up.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sign-up/sign-up.component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.eslintrc.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="D:\My Coding Projects\Khakee\node_modules\eslint" />
@@ -128,7 +129,9 @@
       <workItem from="1623830328546" duration="30000" />
       <workItem from="1623830375952" duration="961000" />
       <workItem from="1623831470993" duration="511000" />
-      <workItem from="1623832016926" duration="11763000" />
+      <workItem from="1623832016926" duration="12136000" />
+      <workItem from="1623926851569" duration="1199000" />
+      <workItem from="1624274600434" duration="1320000" />
     </task>
     <servers />
   </component>

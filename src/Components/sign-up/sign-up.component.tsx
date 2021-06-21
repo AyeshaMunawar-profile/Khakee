@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {Form, Typography, Input, Button, Checkbox} from "antd";
 import "./sign-up.style.scss";
 
