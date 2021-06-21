@@ -8,8 +8,8 @@ const ShopPage: React.FC = () => {
 
 	return (
 		<>
-			<div className="shop-page">
-				<div className="section">
+			<div>
+				<div className="section shop-page">
 					{collections.map((collection) => (
 						<CollectionPreview key={collection.id} title={collection.categoryName} items={collection.items} />
 					))}

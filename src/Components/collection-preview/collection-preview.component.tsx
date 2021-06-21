@@ -15,7 +15,7 @@ const CollectionPreview: React.FC<Props> = ({title, items}) => {
 		speed: 500,
 		slidesToShow: 3,
 		slidesToScroll: 3,
-		autoplay: true,
+		autoplay: false,
 		initialSlide: 0,
 		responsive: [
 			{
@@ -50,7 +50,16 @@ const CollectionPreview: React.FC<Props> = ({title, items}) => {
 					slidesToShow: 1,
 					slidesToScroll: 1,
 					dots: false,
-					arrows: false
+					arrows: true
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots: false,
+					arrows: true
 				}
 			}
 		]
