@@ -1,13 +1,11 @@
 import React, {useState} from "react";
 import {Typography, Form, Input, Button, Checkbox, Col} from "antd";
 import "./sign-in.style.scss";
+import {ConsoleSqlOutlined} from "@ant-design/icons";
 
 const {Title} = Typography;
 
 const SignIn: React.FC = () => {
-	const [email, setEmail] = useState("");
-	const [password, setPassword] = useState("");
-	const [rememeberMe, setRememeberMe] = useState(false);
 	const layout = {
 		labelCol: {span: 8},
 		wrapperCol: {span: 16}
@@ -15,13 +13,17 @@ const SignIn: React.FC = () => {
 	const tailLayout = {
 		wrapperCol: {offset: 8, span: 16}
 	};
-
+	// Trigger after submitting the form and verifying data successfully
 	const onFinish = (values: any) => {
 		console.log("Success:", values);
 	};
-
+	// Trigger after submitting the form and verifying data failed
 	const onFinishFailed = (errorInfo: any) => {
 		console.log("Failed:", errorInfo);
+	};
+
+	const onValuesChanged = (values: any) => {
+		console.log(values);
 	};
 	return (
 		<>
@@ -35,15 +37,22 @@ const SignIn: React.FC = () => {
 				<Form
 					className="sign-in-form u-margin-top-big"
 					{...layout}
-					name="basic"
+					name="signin-form"
 					initialValues={{remember: true}}
 					onFinish={onFinish}
 					onFinishFailed={onFinishFailed}
+					onValuesChange={onValuesChanged}
 				>
 					<Form.Item
-						label="Username"
-						name="username"
-						rules={[{required: true, message: "Please input your username!"}]}
+						label="Email Address"
+						name="email"
+						rules={[
+							{required: true, message: "Please input your email address !"},
+							{
+								type: "email",
+								message: "Please enter a valid email address!"
+							}
+						]}
 					>
 						<Input />
 					</Form.Item>
