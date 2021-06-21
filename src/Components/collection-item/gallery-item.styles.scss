@@ -1,0 +1,24 @@
+@import "../../SASS/Abstract/variables";
+
+.gallery-preview-item {
+	border-radius: 10px !important;
+	-webkit-border-radius: 10px !important;
+	-moz-border-radius: 10px !important;
+	-ms-border-radius: 10px !important;
+	-o-border-radius: 10px !important;
+	overflow: hidden !important;
+	height: 45rem !important;
+	width: 35rem !important;
+	background-color: $color-off-white---2 !important;
+}
+
+.gallery-preview-cover {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	object-fit: cover;
+	height: 30rem;
+	width: 100%;
+}

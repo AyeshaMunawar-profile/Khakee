@@ -1,14 +1,14 @@
-import "./collection-preview.styles.scss";
+import "./gallery-preview.styles.scss";
 import {Typography} from "antd";
 import Slider from "react-slick";
-import CollectionItem from "../collection-item/collection-item.component";
+import GalleryItem from "../collection-item/gallery-item.component";
 
 const {Title} = Typography;
 interface Props {
 	title: string;
 	items: any;
 }
-const CollectionPreview: React.FC<Props> = ({title, items}) => {
+const GalleryPreview: React.FC<Props> = ({title, items}) => {
 	const sliderSettings = {
 		dots: true,
 		infinite: true,
@@ -66,18 +66,12 @@ const CollectionPreview: React.FC<Props> = ({title, items}) => {
 	};
 	return (
 		<>
-			<div className="collection-preview sub-section">
-				<Title className="collection-heading section-heading section-heading--sub">{title.toUpperCase()}</Title>
+			<div className="gallery-preview sub-section">
+				<Title className="gallery-heading section-heading section-heading--sub">{title.toUpperCase()}</Title>
 				<Slider {...sliderSettings} className="collection-slider">
 					{items.map((item: any) => {
 						return (
-							<CollectionItem
-								key={item.id}
-								id={item.id}
-								imageUrl={item.imageUrl}
-								price={item.price}
-								title={item.title}
-							/>
+							<GalleryItem key={item.id} id={item.id} imageUrl={item.imageUrl} price={item.price} title={item.title} />
 						);
 					})}
 				</Slider>
@@ -86,4 +80,4 @@ const CollectionPreview: React.FC<Props> = ({title, items}) => {
 	);
 };
 
-export default CollectionPreview;
+export default GalleryPreview;

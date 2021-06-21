@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Common/fonts/Matthias.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Common/fonts/Matthias.otf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" beforeDir="false" afterPath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sign-up/sign-up.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sign-up/sign-up.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/collection-item/collection-item.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/collection-item/gallery-item.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/collection-item/gallery-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/collection-preview/collection-preview.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/gallery-preview/gallery-preview.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/collection-preview/collection-preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/gallery-preview/gallery-preview.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/shoppage/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/shoppage/shop.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/shoppage/shoppage.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/shoppage/gallerypage.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/shoppage/shoppage.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/shoppage/gallerypage.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Layout/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Layout/_sections.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +84,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.selected.package.eslint" value="D:\My Coding Projects\Khakee\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\My Coding Projects\Khakee\node_modules\prettier" />

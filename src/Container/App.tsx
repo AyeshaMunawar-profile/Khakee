@@ -1,7 +1,7 @@
 import React from "react";
 import {Route, Switch} from "react-router-dom";
 import HomePage from "../Pages/homepage/homepage.component";
-import ShopPage from "../Pages/shoppage/shoppage.component";
+import GalleryPage from "../Pages/shoppage/gallerypage.component";
 import Header from "../Components/header/header.component";
 import "../SASS/main.scss";
 import "antd/dist/antd.css";
@@ -15,7 +15,7 @@ const App: React.FC = () => {
 			<Header currentPage="home" />
 			<Switch>
 				<Route exact path="/" component={HomePage} />
-				<Route exact path="/shop" component={ShopPage} />
+				<Route exact path="/gallery" component={GalleryPage} />
 				<Route exact path="/sign-up" component={AuthenticationPage} />
 				<Route exact path="/sign-in" component={AuthenticationPage} />
 			</Switch>
