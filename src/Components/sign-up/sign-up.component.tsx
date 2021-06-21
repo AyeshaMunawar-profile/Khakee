@@ -5,12 +5,6 @@ import "./sign-up.style.scss";
 const {Title} = Typography;
 
 const SignUp: React.FC = () => {
-	const [firstName, setFirstName] = useState("");
-	const [lastName, setlastName] = useState("");
-	const [email, setEmail] = useState("");
-	const [password, setPassword] = useState("");
-	const [confirmPassword, setConfirmPassword] = useState("");
-	const [rememeberMe, setRememeberMe] = useState(false);
 	const layout = {
 		labelCol: {span: 8},
 		wrapperCol: {span: 16}
@@ -26,6 +20,10 @@ const SignUp: React.FC = () => {
 	const onFinishFailed = (errorInfo: any) => {
 		console.log("Failed:", errorInfo);
 	};
+	const onValuesChanged = (values: any) => {
+		console.log(values);
+	};
+
 	return (
 		<>
 			<div className="sign-up-section sub-section">
@@ -36,33 +34,47 @@ const SignUp: React.FC = () => {
 				<Form
 					className="sign-up-form u-margin-top-big"
 					{...layout}
-					name="basic"
+					name="signup-form"
 					initialValues={{remember: true}}
 					onFinish={onFinish}
 					onFinishFailed={onFinishFailed}
+					onValuesChange={onValuesChanged}
 				>
 					<Form.Item
-						label="FirstName"
-						name="firstname"
+						label="First Name"
+						name="firstName"
 						rules={[{required: true, message: "Please enter your first name"}]}
 					>
 						<Input />
 					</Form.Item>
 					<Form.Item
-						label="LastName"
-						name="lastname"
+						label="Last Name"
+						name="lastName"
 						rules={[{required: false, message: "Please enter your last name"}]}
 					>
 						<Input />
 					</Form.Item>
 					<Form.Item
 						label="Username"
-						name="username"
+						name="userName"
 						rules={[{required: true, message: "Please input your username!"}]}
 					>
 						<Input />
 					</Form.Item>
-
+					<Form.Item
+						label="Email Address"
+						name="email"
+						rules={[
+							{required: true, message: "Please input your email address"},
+							{
+								type: "email",
+								message: "Please enter a valid email address!"
+							}
+						]}
+					>
+						<Input />
+					</Form.Item>
+					;
 					<Form.Item
 						label="Password"
 						name="password"
@@ -71,17 +83,30 @@ const SignUp: React.FC = () => {
 						<Input.Password />
 					</Form.Item>
 					<Form.Item
-						label="ConfirmPassword"
-						name="confirm-password"
-						rules={[{required: true, message: "Please retype your password!"}]}
+						label="Confirm Password"
+						name="confirmPassword"
+						dependencies={["password"]}
+						hasFeedback
+						rules={[
+							{
+								required: true,
+								message: "Please confirm your password!"
+							},
+							({getFieldValue}) => ({
+								validator(_, value) {
+									if (!value || getFieldValue("password") === value) {
+										return Promise.resolve();
+									}
+									return Promise.reject(new Error("The two passwords that you entered do not match!"));
+								}
+							})
+						]}
 					>
 						<Input.Password />
 					</Form.Item>
-
 					<Form.Item {...tailLayout} name="remember" valuePropName="checked">
 						<Checkbox>Remember me</Checkbox>
 					</Form.Item>
-
 					<Form.Item {...tailLayout}>
 						<Button type="primary" htmlType="submit">
 							Submit
