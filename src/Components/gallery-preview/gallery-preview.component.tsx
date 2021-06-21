@@ -1,7 +1,8 @@
-import "./gallery-preview.styles.scss";
-import {Typography} from "antd";
+import React from "react";
 import Slider from "react-slick";
+import {Typography} from "antd";
 import GalleryItem from "../collection-item/gallery-item.component";
+import "./gallery-preview.styles.scss";
 
 const {Title} = Typography;
 interface Props {

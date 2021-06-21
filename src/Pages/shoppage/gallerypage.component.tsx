@@ -1,4 +1,4 @@
-import {useState} from "react";
+import React, {useState} from "react";
 import "./gallerypage.style.scss";
 import SHOP_DATA from "./shop.data";
 import GalleryPreview from "../../Components/gallery-preview/gallery-preview.component";
