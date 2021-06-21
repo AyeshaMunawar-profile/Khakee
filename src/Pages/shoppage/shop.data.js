@@ -196,7 +196,7 @@ const SHOP_DATA = [
 	},
 	{
 		id: 4,
-		categoryName: "Concept-art",
+		categoryName: "Concept Art",
 		routeName: "concept-art",
 		items: [
 			{
