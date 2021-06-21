@@ -15,11 +15,11 @@
 }
 .slick-next {
 	z-index: 5;
-	right: 1% !important;
+	// right: 1% !important;
 }
 .slick-prev {
 	z-index: 5;
-	left: 1% !important;
+	// left: 1% !important;
 }
 .slick-prev:before,
 .slick-next:before {
@@ -36,4 +36,16 @@
 }
 .slick-dots li.slick-active button:before {
 	color: $color-red--0 !important;
+}
+
+@media (max-width: 900px) {
+	.collection-preview {
+		padding: 3rem 2rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.collection-preview {
+		padding: 3rem 2rem;
+	}
 }
