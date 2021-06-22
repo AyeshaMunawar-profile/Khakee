@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" beforeDir="false" afterPath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSS/antd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LESS/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/gallery-preview/gallery-preview.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/gallery-preview/gallery-preview.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SASS/Abstract/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Abstract/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +95,11 @@
       <recent name="D:\Practice Projects\Khakee\khakee\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My Coding Projects\Khakee\src\Less" />
       <recent name="D:\My Coding Projects\Khakee\src\Common\fonts" />
       <recent name="D:\Khakee\src\Components\menu-item" />
       <recent name="D:\Khakee\src\Pages\homepage" />
       <recent name="D:\Khakee\src\Container" />
-      <recent name="D:\Khakee\src\Pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -129,6 +135,9 @@
       <workItem from="1623926851569" duration="1199000" />
       <workItem from="1624274600434" duration="1320000" />
       <workItem from="1624290682525" duration="1920000" />
+      <workItem from="1624384360436" duration="108000" />
+      <workItem from="1624384482140" duration="1266000" />
+      <workItem from="1624385904280" duration="3412000" />
     </task>
     <servers />
   </component>
@@ -149,6 +158,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/antd/dist/default-theme.js</url>
+          <line>326</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

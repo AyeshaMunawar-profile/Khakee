@@ -12,6 +12,7 @@
 }
 .ant-menu-horizontal {
 	width: 100%;
+	align-items: center;
 	justify-content: flex-end;
 	padding: 3rem 1rem 3rem 1rem !important;
 }
@@ -24,31 +25,6 @@
 	margin-top: 1rem !important;
 	margin-bottom: 1rem !important;
 }
-
-.ant-menu-item-selected {
-	color: $color-red---1 !important;
-}
-
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
-	color: $color-red---1 !important;
-}
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover:not(.btn)::after,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover:not(.btn)::after,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active:not(.btn)::after,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active:not(.btn)::after,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open:not(.btn)::after,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open:not(.btn)::after,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected:not(.btn)::after,
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected:not(.btn)::after {
-	border-bottom: 3px solid $color-red--0 !important;
-}
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item.btn:hover::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu.btn:hover::after,
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active.btn::after,
@@ -59,7 +35,6 @@
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected.btn::after {
 	border-bottom: 3px solid transparent !important;
 }
-
 .ant-menu-item:hover,
 .ant-menu-item-active,
 .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
@@ -75,19 +50,6 @@
 .ant-btn-primary,
 .ant-btn-primary:link {
 	height: 4.2rem !important;
-	color: #fff;
-	background: $color-red---1 !important;
-	border-color: $color-red---1 !important;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-}
-.btn-primary--pink:hover,
-.btn-primary--pink:active {
-	color: #fff !important;
-	background: $color-red--0 !important;
-	border-color: $color-red--0 !important;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
-	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 .ant-badge-count {
 	z-index: auto;
@@ -100,7 +62,6 @@
 	line-height: 15px;
 	white-space: nowrap;
 	text-align: center;
-	background: $color-red---1 !important;
 	border-radius: 10px;
 	box-shadow: 0 0 0 1px #fff;
 }
@@ -110,43 +71,10 @@ h1.ant-typography , .ant-typography h1{
 	color: $color-grey--4 !important;
 	font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
 }
-
-h2.ant-typography , .ant-typography h2,
-h3.ant-typography , .ant-typography h3,
-h4.ant-typography , .ant-typography h4,
-h5.ant-typography , .ant-typography h5,
-h6.ant-typography , .ant-typography h6
-{
-	color: $color-grey--2 !important;
-	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
-}
-
 //***************Forms*******************************
 .ant-form-item{
 	margin-bottom: 2rem !important;
 }
 .ant-form-item-label > label{
 	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
-	color: $color-grey--2 !important;
-	font-size: 1.6rem !important;
-}
-.ant-checkbox-checked .ant-checkbox-inner{
-	border-color: $color-green--1 !important;
-	background-color: $color-green--1 !important;
-}
-.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled),
-.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
-	border-color: $color-green---0 !important;
-}
-.ant-form-item-control-input{
-	min-height: 4rem !important;
-}
-.ant-input:hover,.ant-input:focus,.ant-input:active,.ant-input-focused{
-	border-color: $color-green--1 !important;
-	outline: none !important;
-}
-
-.ant-input-affix-wrapper .ant-input:focus,
-.ant-input-affix-wrapper  .ant-input:active {
-	border-color: $color-green---0 !important;
 }
