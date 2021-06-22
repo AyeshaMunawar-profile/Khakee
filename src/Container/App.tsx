@@ -4,7 +4,7 @@ import HomePage from "../Pages/homepage/homepage.component";
 import GalleryPage from "../Pages/shoppage/gallerypage.component";
 import Header from "../Components/header/header.component";
 import "../SASS/main.scss";
-import "antd/dist/antd.css";
+import "../CSS/antd.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AuthenticationPage from "../Pages/authenticationpage/authenticationpage.component";

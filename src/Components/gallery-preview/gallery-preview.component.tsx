@@ -16,7 +16,7 @@ const GalleryPreview: React.FC<Props> = ({title, items}) => {
 		speed: 500,
 		slidesToShow: 3,
 		slidesToScroll: 3,
-		autoplay: false,
+		autoplay: true,
 		initialSlide: 0,
 		responsive: [
 			{
