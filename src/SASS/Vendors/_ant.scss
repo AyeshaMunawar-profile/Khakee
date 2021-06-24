@@ -20,7 +20,14 @@
 	padding-top: 2rem !important;
 	padding-bottom: 2rem !important;
 }
-.ant-menu-vertical > .ant-menu-item, .ant-menu-vertical-left > .ant-menu-item, .ant-menu-vertical-right > .ant-menu-item, .ant-menu-inline > .ant-menu-item, .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title{
+.ant-menu-vertical > .ant-menu-item,
+.ant-menu-vertical-left > .ant-menu-item,
+.ant-menu-vertical-right > .ant-menu-item,
+.ant-menu-inline > .ant-menu-item,
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
 	height: 5rem !important;
 	margin-top: 1rem !important;
 	margin-bottom: 1rem !important;
@@ -67,14 +74,32 @@
 }
 
 //***************Typography*******************************
-h1.ant-typography , .ant-typography h1{
+h1.ant-typography,
+.ant-typography h1 {
 	color: $color-grey--4 !important;
 	font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
 }
 //***************Forms*******************************
-.ant-form-item{
+.ant-form-item {
 	margin-bottom: 2rem !important;
 }
-.ant-form-item-label > label{
+.ant-form-item-label > label {
 	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+.ant-form-item-control-input-content .ant-input:focus,
+.ant-form-item-control-input-content .ant-input-focused {
+	border-color: $color-forest-green--0;
+	box-shadow: 0 0 0 2px rgba($color-forest-green--0, 0.2);
+}
+
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:focus {
+	border-color: $color-forest-green--0 !important;
+	box-shadow: 0 0 0 2px rgba($color-forest-green--0, 0.2) !important;
+
+	.ant-form-item-control-input-content .ant-input:focus,
+	.ant-form-item-control-input-content .ant-input-focused {
+		border-color: transparent !important;
+		box-shadow: none !important;
+	}
 }
