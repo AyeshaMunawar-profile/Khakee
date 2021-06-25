@@ -1,7 +1,7 @@
 import React, {useState} from "react";
-import {Typography, Form, Input, Button, Checkbox, Col} from "antd";
+import {Typography, Form, Input, Checkbox, Col, Space, Button} from "antd";
+import {signInWithGoogle} from "../../Firebase/firebase.utils";
 import "./sign-in.style.scss";
-import {ConsoleSqlOutlined} from "@ant-design/icons";
 
 const {Title} = Typography;
 
@@ -70,9 +70,14 @@ const SignIn: React.FC = () => {
 					</Form.Item>
 
 					<Form.Item {...tailLayout}>
-						<Button type="primary" htmlType="submit">
-							Submit
-						</Button>
+						<Space direction="horizontal">
+							<Button type="primary" htmlType="submit">
+								Sign in
+							</Button>
+							<Button type="primary" className="btn-solid btn-primary--blue" onClick={signInWithGoogle}>
+								Sign in with Google
+							</Button>
+						</Space>
 					</Form.Item>
 				</Form>
 			</div>

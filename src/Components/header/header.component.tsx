@@ -19,7 +19,7 @@ type PropsType = RouteComponentProps<RouteParams> & {
 const Header: React.FC<PropsType> = ({currentPage, history}) => {
 	const [current, setCurrent] = useState(currentPage);
 	const handleClick = (event: any) => {
-		console.log("click ", event);
+		// console.log("click ", event);
 		setCurrent(event.key);
 	};
 	return (

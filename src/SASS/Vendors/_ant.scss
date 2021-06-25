@@ -54,9 +54,48 @@
 }
 
 //***************Buttons*******************************
+.ant-btn-primary.btn-ghost.btn-primary--black{
+	background-color: $color-black !important;
+	border: 1px solid $color-black !important;
+	color: $color-white !important;
+}
+.ant-btn-primary.btn-ghost.btn-primary--black:hover,
+.ant-btn-primary.btn-ghost.btn-primary--black:active,
+.ant-btn-primary.btn-ghost.btn-primary--black:focus
+{
+	background-color: $color-white !important;
+	border: 1px solid $color-black !important;
+	color: $color-black !important;
+}
+.ant-btn-primary.btn-ghost.btn-primary--blue {
+	background-color: $color-forest-green--0!important;
+	border: 1px solid $color-forest-green--0!important;
+	color: $color-white !important;
+}
+.ant-btn-primary.btn-ghost.btn-primary--blue:hover,
+.ant-btn-primary.btn-ghost.btn-primary--blue:active,
+.ant-btn-primary.btn-ghost.btn-primary--blue:focus {
+	background-color: $color-white !important;
+	border: 1px solid $color-forest-green--0 !important;
+	color: $color-forest-green--0 !important;
+}
+
+.ant-btn-primary.btn-solid.btn-primary--blue {
+	background-color: $color-forest-green--1 !important;
+	border: none !important;
+	color: $color-white !important;
+}
+.ant-btn-primary.btn-solid.btn-primary--blue:hover,
+.ant-btn-primary.btn-solid.btn-primary--blue:active,
+.ant-btn-primary.btn-solid.btn-primary--blue:focus {
+	background-color: $color-forest-green--0 !important;
+	border: none !important;
+}
+
 .ant-btn-primary,
 .ant-btn-primary:link {
 	height: 4.2rem !important;
+	border: 1px solid transparent;
 }
 .ant-badge-count {
 	z-index: auto;
