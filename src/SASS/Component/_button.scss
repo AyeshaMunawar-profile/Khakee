@@ -1,0 +1,11 @@
+.btn-primary--black{
+	background-color: $color-black !important;
+	border: none !important;
+}
+.btn-primary--black:hover,
+.btn-primary--black:active,
+.btn-primary--black:foucs
+{
+	background-color: transparent !important;
+	border: 2px solid $color-black !important;
+}

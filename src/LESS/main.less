@@ -1,12 +1,11 @@
 @import '../../node_modules/antd/dist/antd.less';
-
+@import '../../node_modules/antd-button-color/dist/css/style.less';
 @primary-color: #e85a4f;
-@info-color: @primary-color;
 @success-color: #bbd54a;
-@processing-color: #bbd54a;
+@processing-color: #69353F;
 @info-color: #30bda8;
 @error-color: #c1241b;
-@highlight-color: #e85a4f;
+@highlight-color: #30bda8;
 @warning-color: #f4be0c;
 @link-color: #e85a4f;
 @normal-color: #dbdad7;
@@ -323,7 +322,7 @@
 
 // Form
 // ---
-@label-required-color: @highlight-color;
+@label-required-color: @primary-color;
 @label-color: @heading-color;
 @form-warning-input-bg: @input-bg;
 @form-item-margin-bottom: 24px;
@@ -361,13 +360,13 @@
 @input-bg: @component-background;
 @input-number-hover-border-color: @input-hover-border-color;
 @input-number-handler-active-bg: #f4f4f4;
-@input-number-handler-hover-bg: @primary-4;
+@input-number-handler-hover-bg: @highlight-color;
 @input-number-handler-bg: @component-background;
 @input-number-handler-border-color: @border-color-base;
 @input-addon-bg: @background-color-light;
-@input-hover-border-color: @primary-4;
-@input-focus-border-color: @primary-5;
-@input-active-border-color: @primary-5;
+@input-hover-border-color: @highlight-color;
+@input-focus-border-color: @highlight-color;
+@input-active-border-color: @highlight-color;
 @input-disabled-bg: @disabled-bg;
 @input-outline-offset: 0 0;
 @input-icon-hover-color: fade(@black, 85%);
