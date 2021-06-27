@@ -21,7 +21,7 @@ const GalleryItem: React.FC<Props> = ({id, title, imageUrl, price}) => {
 			>
 				<Meta title={`"${title}"`} description={`$${price}`} />
 				<Button
-					className="btn-add-to-cart btn-primary--pink"
+					className="btn-add-to-cart  btn-gradient btn-primary"
 					type="primary"
 					shape="round"
 					icon={<ShoppingCartOutlined />}

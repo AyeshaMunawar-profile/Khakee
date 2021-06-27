@@ -71,10 +71,10 @@ const SignIn: React.FC = () => {
 
 					<Form.Item {...tailLayout}>
 						<Space direction="horizontal">
-							<Button type="primary" htmlType="submit">
+							<Button type="primary" htmlType="submit" className="btn-gradient btn-primary">
 								Sign in
 							</Button>
-							<Button type="primary" className="btn-solid btn-primary--blue" onClick={signInWithGoogle}>
+							<Button type="primary" className="btn-solid btn-primary--purple" onClick={signInWithGoogle}>
 								Sign in with Google
 							</Button>
 						</Space>

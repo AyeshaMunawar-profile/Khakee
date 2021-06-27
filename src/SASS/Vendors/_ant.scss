@@ -7,7 +7,7 @@
 }
 .ant-menu-item-group-title {
 	font-size: 1.6rem !important;
-	color: $color-red---1 !important;
+	color: $color-pink--1 !important;
 	font-weight: bold !important;
 }
 .ant-menu-horizontal {
@@ -47,13 +47,24 @@
 .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
 .ant-menu-submenu-active,
 .ant-menu-submenu-title:hover {
-	color: $color-red--0 !important;
+	color: $color-blue--1 !important;
 }
 .ant-menu-item {
 	font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
 }
 
 //***************Buttons*******************************
+.ant-btn-primary.btn-gradient.btn-primary {
+	background: linear-gradient(-45deg , $color-blue--0, $color-purple--pink--0,$color-pink--0, $color-orange--1, $color-yellow--1) !important;
+	border: none !important;
+	color: $color-white !important;
+}
+.ant-btn-primary.btn-gradient.btn-primary:hover,
+.ant-btn-primary.btn-gradient.btn-primary:active,
+.ant-btn-primary.btn-gradient.btn-primary:focus {
+	background:  linear-gradient(-45deg, $color-blue--1,$color-purple--pink--1, $color-pink--1, $color-orange--2, $color-yellow--2) !important;
+	border: none !important;
+}
 .ant-btn-primary.btn-ghost.btn-primary--black{
 	background-color: $color-black !important;
 	border: 1px solid $color-black !important;
@@ -68,27 +79,39 @@
 	color: $color-black !important;
 }
 .ant-btn-primary.btn-ghost.btn-primary--blue {
-	background-color: $color-forest-green--0!important;
-	border: 1px solid $color-forest-green--0!important;
+	background-color: $color-blue--1!important;
+	border: 1px solid $color-blue--1!important;
 	color: $color-white !important;
 }
 .ant-btn-primary.btn-ghost.btn-primary--blue:hover,
 .ant-btn-primary.btn-ghost.btn-primary--blue:active,
 .ant-btn-primary.btn-ghost.btn-primary--blue:focus {
 	background-color: $color-white !important;
-	border: 1px solid $color-forest-green--0 !important;
-	color: $color-forest-green--0 !important;
+	border: 1px solid $color-blue--2 !important;
+	color: $color-blue--2 !important;
 }
 
 .ant-btn-primary.btn-solid.btn-primary--blue {
-	background-color: $color-forest-green--1 !important;
+	background-color: $color-blue--1 !important;
 	border: none !important;
 	color: $color-white !important;
 }
 .ant-btn-primary.btn-solid.btn-primary--blue:hover,
 .ant-btn-primary.btn-solid.btn-primary--blue:active,
 .ant-btn-primary.btn-solid.btn-primary--blue:focus {
-	background-color: $color-forest-green--0 !important;
+	background-color: $color-blue--2 !important;
+	border: none !important;
+}
+
+.ant-btn-primary.btn-solid.btn-primary--purple {
+	background-color: $color-purple--pink--2 !important;
+	border: none !important;
+	color: $color-white !important;
+}
+.ant-btn-primary.btn-solid.btn-primary--purple:hover,
+.ant-btn-primary.btn-solid.btn-primary--purple:active,
+.ant-btn-primary.btn-solid.btn-primary--purple:focus {
+	background-color: $color-purple--pink--3!important;
 	border: none !important;
 }
 
@@ -127,14 +150,14 @@ h1.ant-typography,
 }
 .ant-form-item-control-input-content .ant-input:focus,
 .ant-form-item-control-input-content .ant-input-focused {
-	border-color: $color-forest-green--0;
-	box-shadow: 0 0 0 2px rgba($color-forest-green--0, 0.2);
+	border-color: $color-blue--1;
+	box-shadow: 0 0 0 2px rgba($color-blue--1, 0.2);
 }
 
 .ant-input-affix-wrapper-focused,
 .ant-input-affix-wrapper:focus {
-	border-color: $color-forest-green--0 !important;
-	box-shadow: 0 0 0 2px rgba($color-forest-green--0, 0.2) !important;
+	border-color: $color-blue--1 !important;
+	box-shadow: 0 0 0 2px rgba($color-blue--1, 0.2) !important;
 
 	.ant-form-item-control-input-content .ant-input:focus,
 	.ant-form-item-control-input-content .ant-input-focused {

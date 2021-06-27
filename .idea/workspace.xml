@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="" />
+    <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" beforeDir="false" afterPath="$PROJECT_DIR$/colortheme/Khakee Mockup.studio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/antd.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/antd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/collection-item/gallery-item.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/gallery-item/gallery-item.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/collection-item/gallery-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/gallery-item/gallery-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/gallery-preview/gallery-preview.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/gallery-preview/gallery-preview.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/gallery-preview/gallery-preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/gallery-preview/gallery-preview.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/header/header.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/header/header.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/menu-item/menu-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/menu-item/menu-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/sign-in/sign-in.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sign-in/sign-in.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/sign-up/sign-up.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sign-up/sign-up.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LESS/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/LESS/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Abstract/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Abstract/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Component/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Component/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,6 +147,7 @@
       <workItem from="1624384482140" duration="1266000" />
       <workItem from="1624385904280" duration="3602000" />
       <workItem from="1624513660546" duration="15000" />
+      <workItem from="1624815315577" duration="4046000" />
     </task>
     <servers />
   </component>

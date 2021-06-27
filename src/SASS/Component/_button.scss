@@ -4,8 +4,21 @@
 }
 .btn-primary--black:hover,
 .btn-primary--black:active,
-.btn-primary--black:foucs
+.btn-primary--black:focus
 {
-	background-color: transparent !important;
+	background-color: white !important;
 	border: 2px solid $color-black !important;
+	color: $color-black !important;
+}
+
+.ant-btn-primary.btn-solid.btn-primary {
+	background: linear-gradient(to top left , $color-blue--0, $color-purple--pink--0,$color-pink--0, $color-orange--1, $color-yellow--0) !important;
+	border: none !important;
+	color: $color-white !important;
+}
+.ant-btn-primary.btn-solid.btn-primary:hover,
+.ant-btn-primary.btn-solid.btn-primary:active,
+.ant-btn-primary.btn-solid.btn-primary:focus {
+	background:  linear-gradient(to top left , $color-blue--1,$color-purple--pink--1, $color-pink--1, $color-orange--2, $color-yellow--1) !important;
+	border: none !important;
 }
