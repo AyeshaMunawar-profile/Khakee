@@ -23,7 +23,7 @@
 }
 .slick-prev:before,
 .slick-next:before {
-	color: $color-red--0 !important;
+	color: $color-blue--1 !important;
 	font-size: 3rem !important;
 	z-index: 5 !important;
 }
@@ -35,7 +35,7 @@
 	font-size: 1.5rem !important;
 }
 .slick-dots li.slick-active button:before {
-	color: $color-red--0 !important;
+	color: $color-blue--1 !important;
 }
 
 @media (max-width: 900px) {

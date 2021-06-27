@@ -1,51 +1,63 @@
 //Neutral colors : Black White and Grey
-$color-white: #fdfdfc;
+$color-white: #fafafa;
 $color-black: #0f0e0c;
-$color-grey---2: #dbdad7;
-$color-grey---1: #bbbbb6;
-$color-grey--0: #94928e;
-$color-grey--1: #555552;
-$color-grey--2: #444241;
-$color-grey--3: #31312f;
-$color-grey--4: #272726;
+$color-grey---4: #f3f3f3;
+$color-grey---3: #e5e5e6;
+$color-grey---2: #d3d3da;
+$color-grey---1: #b9b9c1;
+$color-grey--0: #9D9EA8;
+$color-grey--1: #62636A;
+$color-grey--2: #53545B;
+$color-grey--3: #343539;
+$color-grey--4: #28292D;
+$color-grey--5: #1B1D24;
 
-//primary colors : Coffee Brown and Baby Pink
-$color-off-white---2: #f7f7f7;
-$color-off-white---1: #f5f3eb;
-$color-off-white--0: #e9e6e1;
-$color-coffee---2: #fcf8e7;
-$color-coffee---1: #efe3a7;
-$color-coffee--0: #d8c3a5;
-$color-coffee--1: #bb9f79;
-$color-coffee--2: #bb9d61;
-$color-pink---1: #ee7589;
-$color-pink--0: #ff5f82;
-$color-pink--0: #ec4f71;
-$color-red---2: #fcc7c0;
-$color-red---1: #e85a4f;
-$color-red--0: #d04132;
-$color-red--1: #c1241b;
-$color-red--2: #5a1510;
-$color-red--3: #2a0705;
+// primary colors : Purple Blue Pink Yellow gradient
+// main colors blue and purple
+// secondary color yellow and orange
+$color-green---4: #BDE0FE;
+$color-blue---3: #A2D2FF;
+$color-blue---2: #90D4F7;
+$color-blue---1: #75E3F7;
+$color-blue--0: #5AD0E5;
+$color-blue--1: #20bdd7;
+$color-blue--2: #00a8c2;
+$color-blue--3: #5AD0E5;
+$color-purple--pink---3:#FFD3FF;
+$color-purple--pink---2:#DDAAF4;
+$color-purple--pink---1:#C58ADE;
+$color-purple--pink--0:#B37DEC;
+$color-purple--pink--1: #a65bf8;
+$color-purple--pink--2:#9245E3;
+$color-purple--pink--3: #7525ca;
+$color-purple--pink--4: #630dba;
+$color-pink---1: #ff89c2;
+$color-pink--0: #ef62a6;
+$color-pink--1: #e1439d;
 
-//tertiary colors : Olive Green
-$color-green---4: #d5e3a9;
-$color-green---3: #b9c391;
-$color-green---2: #D1D278;
-$color-green---1: #B6D267;
-$color-green---0: #aedc3d;
-$color-green--1: #8AA35B;
-$color-green--2: #758946;
-$color-green--3: #546234;
-$color-green--4: #323A20;
-$color-green--5: #1F2318;
-$color-forest-green---1: #47dcc6;
-$color-forest-green--0: #30bda8;
-$color-forest-green--1: #079679;
-$color-forest-green--2: #077962;
-$color-orange---1: #f3c683;
-$color-orange--0: #f1af54;
-$color-orange--1: #e39b0a;
-$color-yellow--0: #f4be0c;
+//Secondary Color : Orange and Yellow
+$color-yellow---2: #FFF7C3;
+$color-yellow---1: #fff27a;
+$color-yellow--0: #ffe754;
+$color-yellow--1: #FFE324;
+$color-yellow--2: #f5ce0b;
+$color-orange---1: #FFDAC1;
+$color-orange--0: #FFB689;
+$color-orange--1: #ffa56b;
+$color-orange--2: #fc984f;
+
+//Color Error : Red
+$color-red---1: #FFAFCC;
+$color-red--0: #ED6D79;
+$color-red--1: #e55371;
+
+//Color Success : Green
+$color-green---2: #B5EAD7;
+$color-green---1: #81eea5;
+$color-green--0: #71E096;
+$color-green--1: #41d46b;
+$color-yellow-green---1: #deeec4;
+$color-yellow-green--0: #CFF381;
+
 //Font size
 $default-font-size: 1.6rem;

@@ -108,7 +108,7 @@ const SignUp: React.FC = () => {
 						<Checkbox>Remember me</Checkbox>
 					</Form.Item>
 					<Form.Item {...tailLayout}>
-						<Button type="primary" htmlType="submit">
+						<Button type="primary" htmlType="submit" className="btn-solid btn-primary--purple">
 							Submit
 						</Button>
 					</Form.Item>

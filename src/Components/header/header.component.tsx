@@ -89,7 +89,12 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 						</Menu.Item>
 					) : (
 						<Menu.Item key="sign-up" className="menu-btn-sign-up btn">
-							<Button className="btn-sign-up btn-primary--pink" type="primary" shape="round" icon={<UserAddOutlined />}>
+							<Button
+								className="btn-sign-up btn-gradient btn-primary"
+								type="primary"
+								shape="round"
+								icon={<UserAddOutlined />}
+							>
 								Sign Up
 							</Button>
 						</Menu.Item>
