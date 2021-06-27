@@ -28,7 +28,7 @@ const App: React.FC = () => {
 	}, []);
 	return (
 		<>
-			<Header currentPage="home" />
+			<Header currentPage="home" currentUser={currentUser} />
 			<Switch>
 				<Route exact path="/" component={HomePage} />
 				<Route exact path="/gallery" component={GalleryPage} />

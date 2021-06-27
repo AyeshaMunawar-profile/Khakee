@@ -29,7 +29,7 @@ const SignIn: React.FC = () => {
 		<>
 			<div className="sign-in-section sub-section">
 				<Col>
-					<Title>I already have and account</Title>
+					<Title>Already have an account</Title>
 					<Title level={3} className="font-weight-normal">
 						Sign in using your email and password
 					</Title>
