@@ -1,6 +1,14 @@
 import React, {useState} from "react";
 import {Menu, Button, Badge, Typography, Avatar, Image, Space} from "antd";
-import {UserOutlined, UserAddOutlined, ShoppingCartOutlined} from "@ant-design/icons";
+import {
+	UserOutlined,
+	UserAddOutlined,
+	ShoppingCartOutlined,
+	LogoutOutlined,
+	SolutionOutlined,
+	HeartOutlined,
+	GlobalOutlined
+} from "@ant-design/icons";
 import "./header.styles.scss";
 
 import {RouteComponentProps, withRouter} from "react-router";
@@ -71,22 +79,58 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 						}
 						className="menu-cart"
 					>
-						Cart
+						My Cart
 					</Menu.Item>
 
 					{/* if the current user exists then it means the user is signed in show user's profile instead of sign up button in the header  */}
 
 					{currentUser ? (
-						<Menu.Item key="user-profile" className="menu-btn-user-profile btn">
-							<Space direction="horizontal">
-								{currentUser.photoURL ? (
-									<Avatar src={currentUser.photoURL} className="user-avatar" />
-								) : (
-									<Avatar icon={<UserOutlined />} className="user-avatar" size={20} />
-								)}
-								{currentUser.displayName && currentUser.displayName}
-							</Space>
-						</Menu.Item>
+						<SubMenu key="user-account-settings" icon={<UserOutlined />} title="My Account">
+							<Menu.ItemGroup key="my-account" title="Account settings">
+								<Menu.Item className="menu-btn-user-profile btn">
+									<Space direction="horizontal">
+										{currentUser.photoURL ? (
+											<Avatar src={currentUser.photoURL} className="user-avatar" />
+										) : (
+											<Avatar icon={<UserOutlined />} className="user-avatar" size={20} />
+										)}
+										{currentUser.displayName && currentUser.displayName}
+									</Space>
+								</Menu.Item>
+								<Menu.Item key="sign-out" className="sign-out">
+									<Button
+										className="btn-sign-up btn-gradient btn-primary"
+										type="primary"
+										shape="round"
+										icon={<LogoutOutlined />}
+									>
+										Sign out
+									</Button>
+								</Menu.Item>
+							</Menu.ItemGroup>
+							<Menu.ItemGroup key="my-shopping-details" title="Shopping details">
+								<Menu.Item
+									key="cart"
+									icon={
+										<Badge count={5} className="cart-count">
+											<ShoppingCartOutlined />
+										</Badge>
+									}
+									className="sub-menu-cart"
+								>
+									My Cart
+								</Menu.Item>
+								<Menu.Item key="orders" icon={<SolutionOutlined />} className="sub-menu-orders">
+									My Orders
+								</Menu.Item>
+								<Menu.Item key="wishlist" icon={<HeartOutlined />} className="sub-menu-wishlist">
+									My Wishlist
+								</Menu.Item>
+								<Menu.Item key="track-orders" icon={<GlobalOutlined />} className="sub-menu-track-order">
+									Track Order
+								</Menu.Item>
+							</Menu.ItemGroup>
+						</SubMenu>
 					) : (
 						<Menu.Item key="sign-up" className="menu-btn-sign-up btn">
 							<Button
