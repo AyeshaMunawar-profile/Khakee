@@ -55,32 +55,45 @@
 
 //***************Buttons*******************************
 .ant-btn-primary.btn-gradient.btn-primary {
-	background: linear-gradient(-45deg , $color-blue--0, $color-purple--pink--0,$color-pink--0, $color-orange--1, $color-yellow--1) !important;
+	background: linear-gradient(
+		-45deg,
+		$color-blue--0,
+		$color-purple--pink--0,
+		$color-pink--0,
+		$color-orange--1,
+		$color-yellow--1
+	) !important;
 	border: none !important;
 	color: $color-white !important;
 }
 .ant-btn-primary.btn-gradient.btn-primary:hover,
 .ant-btn-primary.btn-gradient.btn-primary:active,
 .ant-btn-primary.btn-gradient.btn-primary:focus {
-	background:  linear-gradient(-45deg, $color-blue--1,$color-purple--pink--1, $color-pink--1, $color-orange--2, $color-yellow--2) !important;
+	background: linear-gradient(
+		-45deg,
+		$color-blue--1,
+		$color-purple--pink--1,
+		$color-pink--1,
+		$color-orange--2,
+		$color-yellow--2
+	) !important;
 	border: none !important;
 }
-.ant-btn-primary.btn-ghost.btn-primary--black{
+.ant-btn-primary.btn-ghost.btn-primary--black {
 	background-color: $color-black !important;
 	border: 1px solid $color-black !important;
 	color: $color-white !important;
 }
 .ant-btn-primary.btn-ghost.btn-primary--black:hover,
 .ant-btn-primary.btn-ghost.btn-primary--black:active,
-.ant-btn-primary.btn-ghost.btn-primary--black:focus
-{
+.ant-btn-primary.btn-ghost.btn-primary--black:focus {
 	background-color: $color-white !important;
 	border: 1px solid $color-black !important;
 	color: $color-black !important;
 }
 .ant-btn-primary.btn-ghost.btn-primary--blue {
-	background-color: $color-blue--1!important;
-	border: 1px solid $color-blue--1!important;
+	background-color: $color-blue--1 !important;
+	border: 1px solid $color-blue--1 !important;
 	color: $color-white !important;
 }
 .ant-btn-primary.btn-ghost.btn-primary--blue:hover,
@@ -111,7 +124,7 @@
 .ant-btn-primary.btn-solid.btn-primary--purple:hover,
 .ant-btn-primary.btn-solid.btn-primary--purple:active,
 .ant-btn-primary.btn-solid.btn-primary--purple:focus {
-	background-color: $color-purple--pink--3!important;
+	background-color: $color-purple--pink--4 !important;
 	border: none !important;
 }
 
@@ -164,4 +177,22 @@ h1.ant-typography,
 		border-color: transparent !important;
 		box-shadow: none !important;
 	}
+}
+
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title {
+	height: 50px !important;
+}
+
+.ant-menu-item-group:not(:first-child) {
+	margin-top: 2rem !important;
+}
+.ant-menu-item-group-title {
+	margin-bottom: 1rem !important;
 }

@@ -74,7 +74,7 @@ const SignIn: React.FC = () => {
 							<Button type="primary" htmlType="submit" className="btn-gradient btn-primary">
 								Sign in
 							</Button>
-							<Button type="primary" className="btn-solid btn-primary--purple" onClick={signInWithGoogle}>
+							<Button type="primary" className="btn-solid btn-primary--blue" onClick={signInWithGoogle}>
 								Sign in with Google
 							</Button>
 						</Space>
