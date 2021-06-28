@@ -99,10 +99,11 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 								</Menu.Item>
 								<Menu.Item key="sign-out" className="sign-out">
 									<Button
-										className="btn-sign-up btn-gradient btn-primary"
+										className="btn-sign-out btn-gradient btn-primary"
 										type="primary"
 										shape="round"
 										icon={<LogoutOutlined />}
+										onClick={() => auth.signOut()}
 									>
 										Sign out
 									</Button>
