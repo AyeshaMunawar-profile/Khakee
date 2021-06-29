@@ -14,7 +14,7 @@ const GalleryPage: React.FC = () => {
 				<div className="section gallery-page">
 					<Title level={1} className="section-heading--main">
 						{" "}
-						Gallery
+						My Gallery
 					</Title>
 					{collections.map((collection) => (
 						<GalleryPreview key={collection.id} title={collection.categoryName} items={collection.items} />

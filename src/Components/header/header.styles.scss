@@ -1,3 +1,4 @@
+@import "../../SASS/Abstract/variables";
 .header {
 	width: 100%;
 }
@@ -45,3 +46,7 @@
 .user-profile .user-avatar{
 	margin-right: 5px;
 }
+//.menu-column:not(:last-child){
+//	border-left: 2px solid $color-grey--1 !important;
+//	margin-left: 1rem !important;
+//}

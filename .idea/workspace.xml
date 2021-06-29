@@ -5,21 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/bags/abstractart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/bags/dreams.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/bags/lovebirds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/bags/onlyfriend.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/bags/stars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/bags/swings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/cups/darkglory.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/cups/holycow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/cups/snakes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/cups/wisdomtooth green.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/cups/wisdomtooth red.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/cups/wisdomtooth.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/diary/bepositive.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/diary/classical design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/diary/donotstop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/diary/followyourdreams.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/diary/wisdomtooth.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/stickers/brightday.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/stickers/cute.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/stickers/iamhappy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/stickers/radiatepositivity.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/stickers/skull.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/tshirt/childhood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/tshirt/death.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/tshirt/drenched.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/tshirt/goodmorning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/tshirt/nekorevolution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Common/images/merch-items/tshirt/rabbithole.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/gallerypage/merchandise.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/category-menu/category-menu.componenet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/category-menu/category-menu.componenet.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/gallery-item/gallery-item.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/gallery-item/gallery-item.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/gallery-preview/gallery-preview.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/gallery-preview/gallery-preview.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/header/header.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/header/header.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Container/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/shoppage/gallerypage.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/gallerypage/gallerypage.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/shoppage/gallerypage.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/gallerypage/gallerypage.style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/shoppage/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/gallerypage/shop.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/Base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/Layout/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Layout/_sections.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SASS/Vendors/_ant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/gallerypage/gallerypage.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/gallerypage/gallerypage.component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +165,7 @@
       <workItem from="1624385904280" duration="3602000" />
       <workItem from="1624513660546" duration="15000" />
       <workItem from="1624815315577" duration="4207000" />
-      <workItem from="1624969171540" duration="5004000" />
+      <workItem from="1624969171540" duration="10745000" />
     </task>
     <servers />
   </component>
