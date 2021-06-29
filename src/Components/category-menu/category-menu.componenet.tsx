@@ -1,7 +1,9 @@
 import "./category-menu.styles.scss";
 import React, {useState} from "react";
+import {Typography, Row} from "antd";
 import MenuItem from "../menu-item/menu-item.component";
 
+const {Title} = Typography;
 const CategoryMenu: React.FC = () => {
 	const sectionsData = [
 		{
@@ -48,18 +50,24 @@ const CategoryMenu: React.FC = () => {
 
 	const [sections, setSections] = useState(sectionsData);
 	return (
-		<div className="category-menu section">
-			{sections
-				? sections.map((item) => (
-						<MenuItem
-							key={item.id}
-							title={item.title}
-							imageUrl={item.imageUrl}
-							linkUrl={item.linkUrl}
-							size={item.size}
-						/>
-				  ))
-				: ""}
+		<div className=" section">
+			<Title level={1} type="secondary" className="u-center-text section-heading--main">
+				Categories
+			</Title>
+
+			<div className="sub-section category-menu">
+				{sections
+					? sections.map((item) => (
+							<MenuItem
+								key={item.id}
+								title={item.title}
+								imageUrl={item.imageUrl}
+								linkUrl={item.linkUrl}
+								size={item.size}
+							/>
+					  ))
+					: ""}
+			</div>
 		</div>
 	);
 };

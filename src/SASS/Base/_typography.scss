@@ -1,3 +1,4 @@
+@import "../Abstract/variables";
 .section-heading {
 	font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	font-weight: normal !important;
@@ -9,6 +10,16 @@
 	color: $color-grey--3 !important;
 	margin-top: 7rem !important;
 	margin-bottom: 7rem !important;
+	font-weight: normal !important;
+	text-align: center;
+}
+.section-heading--main::after{
+	content: "";
+	width: 5rem;
+	text-align: center;
+	border-bottom: 3px solid $color-blue--1;
+	display: block;
+	margin: 3rem auto auto;
 }
 .section-heading--sub {
 	font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;

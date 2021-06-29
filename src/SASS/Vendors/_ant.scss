@@ -20,6 +20,11 @@
 	padding-top: 2rem !important;
 	padding-bottom: 2rem !important;
 }
+.ant-menu-vertical .ant-menu-title-content,
+.ant-menu-horizontal .ant-menu-title-content{
+	font-weight: bolder !important;
+	font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
 .ant-menu-vertical > .ant-menu-item,
 .ant-menu-vertical-left > .ant-menu-item,
 .ant-menu-vertical-right > .ant-menu-item,
@@ -49,9 +54,7 @@
 .ant-menu-submenu-title:hover {
 	color: $color-blue--1 !important;
 }
-.ant-menu-item {
-	font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
-}
+
 
 //***************Buttons*******************************
 .ant-btn-primary.btn-gradient.btn-primary {

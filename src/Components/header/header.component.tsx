@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import {toHeaderCase} from "js-convert-case";
 import {Menu, Button, Badge, Typography, Avatar, Image, Space} from "antd";
 import {
 	UserOutlined,
@@ -10,11 +11,10 @@ import {
 	GlobalOutlined
 } from "@ant-design/icons";
 import "./header.styles.scss";
-
 import {RouteComponentProps, withRouter} from "react-router";
 import firebase from "firebase";
 import {auth} from "../../Firebase/firebase.utils";
-import SHOP_DATA from "../../Pages/shoppage/shop.data";
+import SHOP_DATA from "../../Pages/gallerypage/shop.data";
 
 const {Title} = Typography;
 
@@ -49,25 +49,28 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 							</Title>
 						</span>
 					</Menu.Item>
-					<Menu.Item key="home" className="menu-home">
+					<Menu.Item key="home" className="menu-home" onClick={() => history.push("/")}>
 						Home
 					</Menu.Item>
 					<SubMenu key="SubMenu" title="Products">
 						{SHOP_DATA.map((category) => (
-							<Menu.ItemGroup title={category.categoryName} key={`menu-${category.categoryName}-${category.id}`}>
+							<Menu.ItemGroup
+								title={toHeaderCase(category.categoryName)}
+								key={`menu-${category.categoryName}-${category.id}`}
+							>
 								{category.items.map((item) => (
-									<Menu.Item key={`sub-menu-${item.title}-${item.id}`}>{item.title}</Menu.Item>
+									<Menu.Item key={`sub-menu-${item.title}-${item.id}`}>{toHeaderCase(item.title)}</Menu.Item>
 								))}
 							</Menu.ItemGroup>
 						))}
 					</SubMenu>
-					<Menu.Item key="contact-me" className="menu-contact-me">
+					<Menu.Item key="contact-me" className="menu-contact-me" onClick={() => history.push("/contact-me")}>
 						Contact Me
 					</Menu.Item>
-					<Menu.Item key="about-me" className="menu-about-me">
+					<Menu.Item key="about-me" className="menu-about-me" onClick={() => history.push("/about-me")}>
 						About Me
 					</Menu.Item>
-					<Menu.Item key="blog" className="menu-blog">
+					<Menu.Item key="blog" className="menu-blog" onClick={() => history.push("/blog")}>
 						Blog
 					</Menu.Item>
 					<Menu.Item
@@ -78,6 +81,7 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 							</Badge>
 						}
 						className="menu-cart"
+						onClick={() => history.push("/my-cart")}
 					>
 						My Cart
 					</Menu.Item>
@@ -94,7 +98,7 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 										) : (
 											<Avatar icon={<UserOutlined />} className="user-avatar" size={20} />
 										)}
-										{currentUser.displayName && currentUser.displayName}
+										{currentUser.displayName ? toHeaderCase(currentUser.displayName) : "Loading ..."}
 									</Space>
 								</Menu.Item>
 								<Menu.Item key="sign-out" className="sign-out">
@@ -139,8 +143,9 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 								type="primary"
 								shape="round"
 								icon={<UserAddOutlined />}
+								onClick={() => history.push("./sign-in")}
 							>
-								Sign Up
+								Sign in
 							</Button>
 						</Menu.Item>
 					)}

@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import {Route, Switch} from "react-router-dom";
 import firebase from "firebase";
 import HomePage from "../Pages/homepage/homepage.component";
-import GalleryPage from "../Pages/shoppage/gallerypage.component";
+import GalleryPage from "../Pages/gallerypage/gallerypage.component";
 import Header from "../Components/header/header.component";
 import AuthenticationPage from "../Pages/authenticationpage/authenticationpage.component";
 import {auth} from "../Firebase/firebase.utils";
