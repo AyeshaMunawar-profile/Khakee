@@ -18,7 +18,9 @@ A ecommerce website created in React that allows an artist to sell their artwork
 1) React.js for Front-end 
 2) Ant Design for UI 
 3) Strip.js for processing payments
-4) Firebase for user authentication 
+4) Firebase for user authentication
+5) Typescript for adding optional static typing to the language
+6) js-convert-case for case conversion of strings 
 
 # Getting Started with Create React App
 

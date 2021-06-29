@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import {Typography} from "antd";
+import {toHeaderCase} from "js-convert-case";
 import GalleryItem from "../gallery-item/gallery-item.component";
 import "./gallery-preview.styles.scss";
 
@@ -68,7 +69,7 @@ const GalleryPreview: React.FC<Props> = ({title, items}) => {
 	return (
 		<>
 			<div className="gallery-preview sub-section">
-				<Title className="gallery-heading section-heading section-heading--sub">{title.toUpperCase()}</Title>
+				<Title className="gallery-heading section-heading section-heading--sub">{toHeaderCase(title)}</Title>
 				<Slider {...sliderSettings} className="collection-slider">
 					{items.map((item: any) => {
 						return (
