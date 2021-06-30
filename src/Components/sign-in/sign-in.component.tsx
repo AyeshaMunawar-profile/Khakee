@@ -69,8 +69,8 @@ const SignIn: React.FC = () => {
 						<Checkbox>Remember me</Checkbox>
 					</Form.Item>
 
-					<Form.Item {...tailLayout}>
-						<Space direction="horizontal">
+					<Form.Item {...tailLayout} className="u-margin-top-medium">
+						<Space direction="horizontal" size="middle">
 							<Button type="primary" htmlType="submit" className="btn-gradient btn-primary">
 								Sign in
 							</Button>
