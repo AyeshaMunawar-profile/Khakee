@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {toHeaderCase} from "js-convert-case";
+import {toHeaderCase, toSnakeCase} from "js-convert-case";
 import {Menu, Button, Badge, Typography, Avatar, Image, Space, Row, Col, Divider} from "antd";
 import {
 	UserOutlined,
@@ -39,7 +39,7 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 		<>
 			<div className="header">
 				<Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
-					<Menu.Item key="logo" className="menu-logo btn" onClick={() => history.push("/")}>
+					<Menu.Item key="header-logo" className="menu-logo btn" onClick={() => history.push("/")}>
 						<img className="brand-image" src="../../Common/images/Logo/favicon/logo-192x192.png" alt="logo" />
 						<span className="brand-text">
 							<Title className="brand-name" level={2}>
@@ -50,57 +50,65 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 							</Title>
 						</span>
 					</Menu.Item>
-					<Menu.Item key="home" className="menu-home" onClick={() => history.push("/")}>
+					<Menu.Item key="menu-item-home" className="menu-home" onClick={() => history.push("/")}>
 						Home
 					</Menu.Item>
-					<Menu.Item key="gallery" className="menu-gallery" onClick={() => history.push("/gallery")}>
+					<Menu.Item key="menu-item-gallery" className="menu-gallery" onClick={() => history.push("/gallery")}>
 						Gallery
 					</Menu.Item>
-					<SubMenu key="SubMenu-Products" title="Products">
+					<SubMenu key="submenu-products" title="Products">
 						<Row>
 							{SHOP_DATA.map((category) => (
 								<Col>
 									<Menu.ItemGroup
 										title={toHeaderCase(category.categoryName)}
-										key={`menu-${category.categoryName}-${category.id}`}
+										key={`submenu-${toSnakeCase(category.categoryName)}-${category.id}`}
 										className="menu-column"
 									>
 										{category.items.map((item) => (
-											<Menu.Item key={`sub-menu-${item.title}-${item.id}`}>{toHeaderCase(item.title)}</Menu.Item>
+											<Menu.Item
+												key={`submenu-${toSnakeCase(category.categoryName)}-${toSnakeCase(item.title)}-${item.id}`}
+											>
+												{toHeaderCase(item.title)}
+											</Menu.Item>
 										))}
 									</Menu.ItemGroup>
 								</Col>
 							))}
 						</Row>
 					</SubMenu>
-					<SubMenu key="SubMenu-Merchandise" title="Merchandise">
+					<SubMenu key="submenu-merchandise" title="Merchandise">
 						<Row>
 							{MERCHANDISE_DATA.map((category) => (
 								<Col>
 									<Menu.ItemGroup
 										title={toHeaderCase(category.categoryName)}
-										key={`menu-${category.categoryName}-${category.id}`}
+										key={`submenu-${toSnakeCase(category.categoryName)}-${category.id}`}
 										className="menu-column"
 									>
 										{category.items.map((item) => (
-											<Menu.Item key={`sub-menu-${item.title}-${item.id}`}>{toHeaderCase(item.title)}</Menu.Item>
+											<Menu.Item
+												key={`submenu-${toSnakeCase(category.categoryName)}-${toSnakeCase(item.title)}-${item.id}`}
+											>
+												{toHeaderCase(item.title)}
+											</Menu.Item>
 										))}
 									</Menu.ItemGroup>
 								</Col>
 							))}
 						</Row>
 					</SubMenu>
-					<Menu.Item key="contact-me" className="menu-contact-me" onClick={() => history.push("/contact-me")}>
+					<Menu.Item key="menu-item-contact-me" className="menu-contact-me" onClick={() => history.push("/contact-me")}>
 						Contact Me
 					</Menu.Item>
-					<Menu.Item key="about-me" className="menu-about-me" onClick={() => history.push("/about-me")}>
+					<Menu.Item key="menu-item-about-me" className="menu-about-me" onClick={() => history.push("/about-me")}>
 						About Me
 					</Menu.Item>
-					<Menu.Item key="blog" className="menu-blog" onClick={() => history.push("/blog")}>
+					<Menu.Item key="menu-item-blog" className="menu-blog" onClick={() => history.push("/blog")}>
 						Blog
 					</Menu.Item>
 					<Menu.Item
-						key="cart"
+						key="menu-item-cart"
 						icon={
 							<Badge count={5} className="cart-count">
 								<ShoppingCartOutlined />
@@ -141,7 +149,7 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 							</Menu.ItemGroup>
 							<Menu.ItemGroup key="my-shopping-details" title="Shopping details">
 								<Menu.Item
-									key="cart"
+									key="submenu-cart"
 									icon={
 										<Badge count={5} className="cart-count">
 											<ShoppingCartOutlined />
@@ -151,13 +159,13 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 								>
 									My Cart
 								</Menu.Item>
-								<Menu.Item key="orders" icon={<SolutionOutlined />} className="sub-menu-orders">
+								<Menu.Item key="submenu-orders" icon={<SolutionOutlined />} className="sub-menu-orders">
 									My Orders
 								</Menu.Item>
-								<Menu.Item key="wishlist" icon={<HeartOutlined />} className="sub-menu-wishlist">
+								<Menu.Item key="subemenu-wishlist" icon={<HeartOutlined />} className="sub-menu-wishlist">
 									My Wishlist
 								</Menu.Item>
-								<Menu.Item key="track-orders" icon={<GlobalOutlined />} className="sub-menu-track-order">
+								<Menu.Item key="submenu-track-orders" icon={<GlobalOutlined />} className="sub-menu-track-order">
 									Track Order
 								</Menu.Item>
 							</Menu.ItemGroup>
