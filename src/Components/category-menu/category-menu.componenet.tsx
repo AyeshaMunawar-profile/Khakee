@@ -55,7 +55,7 @@ const CategoryMenu: React.FC = () => {
 				Categories
 			</Title>
 
-			<div className="sub-section category-menu">
+			<div className="category-menu">
 				{sections
 					? sections.map((item) => (
 							<MenuItem
