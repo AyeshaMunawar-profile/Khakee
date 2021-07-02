@@ -26,7 +26,7 @@ interface RouteParams {
 
 type PropsType = RouteComponentProps<RouteParams> & {
 	currentPage: string;
-	currentUser: firebase.User | null;
+	currentUser: any;
 };
 
 const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
