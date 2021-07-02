@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="" />
+    <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/header/header.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/header/header.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Firebase/firebase.utils.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +136,8 @@
       <workItem from="1624385904280" duration="3602000" />
       <workItem from="1624513660546" duration="15000" />
       <workItem from="1624815315577" duration="4207000" />
-      <workItem from="1624969171540" duration="11158000" />
+      <workItem from="1624969171540" duration="11286000" />
+      <workItem from="1625207106000" duration="2606000" />
     </task>
     <servers />
   </component>
