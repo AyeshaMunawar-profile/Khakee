@@ -12,16 +12,30 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const App: React.FC = () => {
-	const [currentUser, setCurrentUser] = useState<firebase.User | null>(null);
+	const [currentUser, setCurrentUser] = useState<null | any>(null);
 
 	let unSubscribeFromAuth: any = null;
+	// DOCUMENT SNAPSHOT OBJECT
+	// ========================
+	// We get a document snapshot object from our document reference object
+	// The document snapshot object allows us to check if the document exists at this query using the .exists property which returns a boolean
+
+	// We can also get the actual properties on the object by calling the .data() method , which returns us a JSON object of the document
+
 	useEffect(() => {
-		unSubscribeFromAuth = auth.onAuthStateChanged(async (user) => {
-			createUserProfileDocument(user);
+		unSubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
+			if (userAuth) {
+				const userRef = createUserProfileDocument(userAuth);
+				(await userRef).onSnapshot(async (snapShot) => {
+					await setCurrentUser({id: snapShot.id, ...snapShot.data()});
+					console.log("Data recieved from user ref is :", snapShot.data());
+				});
+			} else {
+				setCurrentUser(userAuth);
+			}
 			// setCurrentUser(user);
 			// user has a value when the use is signed in even if you refresh the page firebase also implements user authenticated session persistance
 			// Firebase use O Auth services which allows use to use third party authentication services without implemeneting them manually
-			console.log("Current user is :", user);
 		});
 		return () => {
 			unSubscribeFromAuth();

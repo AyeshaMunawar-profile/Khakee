@@ -55,13 +55,22 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
 		console.log("Snap shot recieved is :", snapShot);
 		// if the user doesnt exists in the firestore database but exist in the users that signed up using google signup service add them to the firestore database too
 		if (!snapShot.exists) {
-			const {displayName, email} = userAuth;
+			console.log("user auth variabl eis ", userAuth);
+			const {displayName, email, photoURL} = userAuth;
 			const createdAt = new Date();
+			console.log({
+				displayName,
+				email,
+				createdAt,
+				photoURL,
+				...additionalData
+			});
 			try {
 				await userRef.set({
 					displayName,
 					email,
 					createdAt,
+					photoURL,
 					...additionalData
 				});
 			} catch (error) {

@@ -26,7 +26,7 @@ interface RouteParams {
 
 type PropsType = RouteComponentProps<RouteParams> & {
 	currentPage: string;
-	currentUser: firebase.User | null;
+	currentUser: any;
 };
 
 const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
@@ -123,7 +123,17 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 					{/* if the current user exists then it means the user is signed in show user's profile instead of sign up button in the header  */}
 
 					{currentUser ? (
-						<SubMenu key="user-account-settings" icon={<UserOutlined />} title="My Account">
+						<SubMenu
+							key="user-account-settings"
+							icon={
+								currentUser.photoURL ? (
+									<Avatar src={currentUser.photoURL} className="user-avatar" />
+								) : (
+									<Avatar icon={<UserOutlined />} className="user-avatar" size={20} />
+								)
+							}
+							title={currentUser.displayName ? toHeaderCase(currentUser.displayName) : "Loading ..."}
+						>
 							<Menu.ItemGroup key="my-account" title="Account settings">
 								<Menu.Item className="menu-btn-user-profile btn">
 									<Space direction="horizontal">
