@@ -132,7 +132,7 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 									<Avatar icon={<UserOutlined />} className="user-avatar" size={20} />
 								)
 							}
-							title={currentUser.displayName ? toHeaderCase(currentUser.displayName) : "Loading ..."}
+							title={currentUser.displayName ? toHeaderCase(currentUser.displayName) : "My Account"}
 						>
 							<Menu.ItemGroup key="my-account" title="Account settings">
 								<Menu.Item className="menu-btn-user-profile btn">
@@ -142,7 +142,7 @@ const Header: React.FC<PropsType> = ({currentPage, currentUser, history}) => {
 										) : (
 											<Avatar icon={<UserOutlined />} className="user-avatar" size={20} />
 										)}
-										{currentUser.displayName ? toHeaderCase(currentUser.displayName) : "Loading ..."}
+										{currentUser.displayName ? toHeaderCase(currentUser.displayName) : "My Account"}
 									</Space>
 								</Menu.Item>
 								<Menu.Item key="sign-out" className="sign-out">

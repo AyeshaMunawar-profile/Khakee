@@ -96,7 +96,7 @@ const SignIn: React.FC = () => {
 							<Button type="primary" htmlType="submit" className="btn-gradient btn-primary">
 								Sign in
 							</Button>
-							<Button type="primary" className="btn-solid btn-primary--blue" onClick={() => handleSignInWithGoogle}>
+							<Button type="primary" className="btn-solid btn-primary--blue" onClick={() => handleSignInWithGoogle()}>
 								Sign in with Google
 							</Button>
 						</Space>

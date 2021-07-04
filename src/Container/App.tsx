@@ -28,7 +28,7 @@ const App: React.FC = () => {
 				const userRef = createUserProfileDocument(userAuth);
 				(await userRef).onSnapshot(async (snapShot) => {
 					await setCurrentUser({id: snapShot.id, ...snapShot.data()});
-					console.log("Data recieved from user ref is :", snapShot.data());
+					console.log("Auth State changed and now is :", snapShot.data());
 				});
 			} else {
 				setCurrentUser(userAuth);
