@@ -1,9 +1,15 @@
-import React from "react";
-import {Form, Typography, Input, Button, Checkbox} from "antd";
+import React, {useState} from "react";
+import {Form, Typography, Input, Button, Checkbox, Space} from "antd";
+import {PasswordInput} from "antd-password-input-strength";
+import {auth, createUserProfileDocument} from "../../Firebase/firebase.utils";
 import "./sign-up.style.scss";
 
 const {Title} = Typography;
-
+const passwordStrengthIndicatorSettings = {
+	colorScheme: {levels: ["#e55371", "#fc984f", "#f5ce0b", "#cbe11d", "#41d46b"], noLevel: "lightgrey"},
+	height: 10,
+	alwaysVisible: false
+};
 const SignUp: React.FC = () => {
 	const layout = {
 		labelCol: {span: 8},
@@ -13,15 +19,17 @@ const SignUp: React.FC = () => {
 		wrapperCol: {offset: 8, span: 16}
 	};
 
-	const onFinish = (values: any) => {
-		console.log("Success:", values);
+	const onFinish = async (values: any) => {
+		console.log("Validation Success:", values);
+		// const {user} = await auth.createUserWithEmailAndPassword();
 	};
 
 	const onFinishFailed = (errorInfo: any) => {
-		console.log("Failed:", errorInfo);
+		console.log("Validation Failed:", errorInfo);
 	};
+
 	const onValuesChanged = (values: any) => {
-		console.log(values);
+		// console.log(values);
 	};
 
 	return (
@@ -57,7 +65,10 @@ const SignUp: React.FC = () => {
 					<Form.Item
 						label="Username"
 						name="userName"
-						rules={[{required: true, message: "Please input your username!"}]}
+						rules={[
+							{required: true, message: "Please input your username!"},
+							{min: 5, message: "Username must be minimum 5 characters."}
+						]}
 					>
 						<Input />
 					</Form.Item>
@@ -78,9 +89,12 @@ const SignUp: React.FC = () => {
 					<Form.Item
 						label="Password"
 						name="password"
-						rules={[{required: true, message: "Please input your password!"}]}
+						rules={[
+							{required: true, message: "Please input your password!"},
+							{min: 7, message: "Password must be minimum 7 characters."}
+						]}
 					>
-						<Input.Password />
+						<PasswordInput settings={passwordStrengthIndicatorSettings} />
 					</Form.Item>
 					<Form.Item
 						label="Confirm Password"
@@ -102,7 +116,7 @@ const SignUp: React.FC = () => {
 							})
 						]}
 					>
-						<Input.Password />
+						<PasswordInput settings={passwordStrengthIndicatorSettings} />
 					</Form.Item>
 					<Form.Item {...tailLayout} name="remember" valuePropName="checked">
 						<Checkbox>Remember me</Checkbox>
