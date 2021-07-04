@@ -27,7 +27,8 @@ const SignUp: React.FC = () => {
 		console.log("Sign up from validation success:", values);
 		try {
 			const {user} = await auth.createUserWithEmailAndPassword(email, password);
-			await createUserProfileDocument(user, {displayName});
+			const photoURL = user?.photoURL ? user.photoURL : null;
+			await createUserProfileDocument(user, {displayName, photoURL});
 			setIsSignUpFailed(false);
 			setErrorMessage(null);
 			swal("Welcome!", "Your account has been created successfully", "success");
@@ -35,7 +36,7 @@ const SignUp: React.FC = () => {
 		} catch (error) {
 			setIsSignUpFailed(true);
 			setErrorMessage(error.message);
-			console.log(error);
+			console.error("Sign Up Failed : ", error);
 		}
 		// const {user} = await auth.createUserWithEmailAndPassword();
 	};

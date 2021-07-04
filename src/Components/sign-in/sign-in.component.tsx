@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {Typography, Form, Input, Checkbox, Col, Space, Button, Alert} from "antd";
-import {signInWithGoogle} from "../../Firebase/firebase.utils";
+import swal from "sweetalert";
+import {auth, signInWithGoogle} from "../../Firebase/firebase.utils";
 import "./sign-in.style.scss";
 
 const {Title} = Typography;
@@ -16,14 +17,26 @@ const SignIn: React.FC = () => {
 		wrapperCol: {offset: 8, span: 16}
 	};
 	// Trigger after submitting the form and verifying data successfully
-	const onFinish = (values: any) => {
-		console.log("Success:", values);
+	const onFinish = async (values: any) => {
+		console.log("Sign In Validation Successful:", values);
+		const {email, password} = values;
+		try {
+			await auth.signInWithEmailAndPassword(email, password);
+			setIsSignUpFailed(false);
+			setErrorMessage(null);
+		} catch (error) {
+			console.error("Sign in failed : ", error);
+			setIsSignUpFailed(true);
+			setErrorMessage(error.message);
+		}
 	};
 	// Trigger after submitting the form and verifying data failed
 	const onFinishFailed = (errorInfo: any) => {
-		console.log("Failed:", errorInfo);
+		console.log("Sign In Validation Failed:", errorInfo);
 	};
-
+	const onClosingAlert = () => {
+		setErrorMessage(null);
+	};
 	const onValuesChanged = (values: any) => {
 		console.log(values);
 	};
@@ -63,6 +76,7 @@ const SignIn: React.FC = () => {
 							type="error"
 							closable
 							showIcon
+							onClose={onClosingAlert}
 						/>
 					)}
 					<Form.Item
