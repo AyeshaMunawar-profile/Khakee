@@ -23,14 +23,15 @@ const SignUp: React.FC = () => {
 	};
 
 	const onFinish = async (values: any) => {
-		const {email, password, userName} = values;
+		const {email, password, displayName} = values;
 		console.log("Sign up from validation success:", values);
 		try {
-			const response = await auth.createUserWithEmailAndPassword(email, password);
+			const {user} = await auth.createUserWithEmailAndPassword(email, password);
+			await createUserProfileDocument(user, {displayName});
 			setIsSignUpFailed(false);
 			setErrorMessage(null);
 			swal("Welcome!", "Your account has been created successfully", "success");
-			console.log("Response from the signup call is :", response.user);
+			console.log("Response from the signup call is :", user);
 		} catch (error) {
 			setIsSignUpFailed(true);
 			setErrorMessage(error.message);
@@ -39,6 +40,9 @@ const SignUp: React.FC = () => {
 		// const {user} = await auth.createUserWithEmailAndPassword();
 	};
 
+	const onClosingAlert = () => {
+		setErrorMessage(null);
+	};
 	const onFinishFailed = (errorInfo: any) => {
 		console.log("Sign up form validation failed:", errorInfo);
 	};
@@ -72,8 +76,19 @@ const SignUp: React.FC = () => {
 							type="error"
 							closable
 							showIcon
+							onClose={onClosingAlert}
 						/>
 					)}
+					<Form.Item
+						label="Display Name"
+						name="displayName"
+						rules={[
+							{required: true, message: "Please enter a valid display name"},
+							{min: 7, message: "Display name must be minimum 7 characters."}
+						]}
+					>
+						<Input />
+					</Form.Item>
 					<Form.Item
 						label="Email Address"
 						name="email"
@@ -123,8 +138,8 @@ const SignUp: React.FC = () => {
 						<Checkbox>Remember me</Checkbox>
 					</Form.Item>
 					<Form.Item {...tailLayout} className="u-margin-top-medium">
-						<Button type="primary" htmlType="submit" className="btn-solid btn-primary--blue">
-							Submit
+						<Button type="primary" htmlType="submit" className="btn-solid btn-primary">
+							Sign up
 						</Button>
 					</Form.Item>
 				</Form>
