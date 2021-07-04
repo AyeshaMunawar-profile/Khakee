@@ -84,7 +84,8 @@ const SignUp: React.FC = () => {
 						name="displayName"
 						rules={[
 							{required: true, message: "Please enter a valid display name"},
-							{min: 7, message: "Display name must be minimum 7 characters."}
+							{min: 7, message: "Display name must be minimum 7 characters."},
+							{max: 15, message: "Display name must be maximum 15 characters."}
 						]}
 					>
 						<Input />
