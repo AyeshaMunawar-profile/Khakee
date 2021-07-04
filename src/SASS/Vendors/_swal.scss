@@ -1,0 +1,113 @@
+@import "../Abstract/variables";
+
+.swal-overlay {
+  background-color: rgba($color-grey--1, 0.45);
+}
+
+.swal-title {
+  font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-text {
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-button {
+  color: white;
+  background: linear-gradient(
+                  -45deg,
+                  $color-blue--0,
+                  $color-purple--pink--0,
+                  $color-pink--0,
+                  $color-orange--1,
+                  $color-yellow--1
+  ) !important;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-button:hover,
+.swal-button:active,
+.swal-button:focus {
+  color: white;
+  background: linear-gradient(
+                  -45deg,
+                  $color-blue--1,
+                  $color-purple--pink--1,
+                  $color-pink--1,
+                  $color-orange--2,
+                  $color-yellow--2
+  ) !important;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-button--success {
+  color: white;
+  background-color: $color-green--0;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-button--success:hover,
+.swal-button--success:active,
+.swal-button--success:focus {
+  color: white;
+  background-color: $color-green--1;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-button--error {
+  color: white;
+  background-color: $color-red--0;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-button--error:hover,
+.swal-button--error:active,
+.swal-button--error:focus {
+  color: white;
+  background-color: $color-red--1;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-button--warning {
+  color: white;
+  background-color: $color-orange--1;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-button--warning:hover,
+.swal-button--warning:active,
+.swal-button--warning:focus {
+  color: white;
+  background-color: $color-orange--2;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-button--info {
+  color: white;
+  background-color: $color-blue--0;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.swal-button--info:hover,
+.swal-button--info:active,
+.swal-button--info:focus {
+  color: white;
+  background-color: $color-blue--1;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.swal-footer{
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
