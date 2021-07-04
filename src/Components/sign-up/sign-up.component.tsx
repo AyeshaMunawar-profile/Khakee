@@ -1,6 +1,7 @@
 import React, {useState} from "react";
-import {Form, Typography, Input, Button, Checkbox, Space} from "antd";
+import {Form, Typography, Input, Button, Checkbox, Space, Alert} from "antd";
 import {PasswordInput} from "antd-password-input-strength";
+import swal from "sweetalert";
 import {auth, createUserProfileDocument} from "../../Firebase/firebase.utils";
 import "./sign-up.style.scss";
 
@@ -11,6 +12,8 @@ const passwordStrengthIndicatorSettings = {
 	alwaysVisible: false
 };
 const SignUp: React.FC = () => {
+	const [isSignUpFailed, setIsSignUpFailed] = useState(false);
+	const [errorMessage, setErrorMessage] = useState<null | string>(null);
 	const layout = {
 		labelCol: {span: 8},
 		wrapperCol: {span: 16}
@@ -20,12 +23,24 @@ const SignUp: React.FC = () => {
 	};
 
 	const onFinish = async (values: any) => {
-		console.log("Validation Success:", values);
+		const {email, password, userName} = values;
+		console.log("Sign up from validation success:", values);
+		try {
+			const response = await auth.createUserWithEmailAndPassword(email, password);
+			setIsSignUpFailed(false);
+			setErrorMessage(null);
+			swal("Welcome!", "Your account has been created successfully", "success");
+			console.log("Response from the signup call is :", response.user);
+		} catch (error) {
+			setIsSignUpFailed(true);
+			setErrorMessage(error.message);
+			console.log(error);
+		}
 		// const {user} = await auth.createUserWithEmailAndPassword();
 	};
 
 	const onFinishFailed = (errorInfo: any) => {
-		console.log("Validation Failed:", errorInfo);
+		console.log("Sign up form validation failed:", errorInfo);
 	};
 
 	const onValuesChanged = (values: any) => {
@@ -39,6 +54,7 @@ const SignUp: React.FC = () => {
 				<Title level={3} className="font-weight-normal">
 					Create new account using your email and password
 				</Title>
+
 				<Form
 					className="sign-up-form u-margin-top-big"
 					{...layout}
@@ -48,30 +64,16 @@ const SignUp: React.FC = () => {
 					onFinishFailed={onFinishFailed}
 					onValuesChange={onValuesChanged}
 				>
-					<Form.Item
-						label="First Name"
-						name="firstName"
-						rules={[{required: true, message: "Please enter your first name"}]}
-					>
-						<Input />
-					</Form.Item>
-					<Form.Item
-						label="Last Name"
-						name="lastName"
-						rules={[{required: false, message: "Please enter your last name"}]}
-					>
-						<Input />
-					</Form.Item>
-					<Form.Item
-						label="Username"
-						name="userName"
-						rules={[
-							{required: true, message: "Please input your username!"},
-							{min: 5, message: "Username must be minimum 5 characters."}
-						]}
-					>
-						<Input />
-					</Form.Item>
+					{isSignUpFailed && errorMessage && (
+						<Alert
+							message="Oops ! Sign up failed "
+							description={errorMessage}
+							className="u-margin-top-medium u-margin-bottom-medium"
+							type="error"
+							closable
+							showIcon
+						/>
+					)}
 					<Form.Item
 						label="Email Address"
 						name="email"
@@ -85,7 +87,6 @@ const SignUp: React.FC = () => {
 					>
 						<Input />
 					</Form.Item>
-					;
 					<Form.Item
 						label="Password"
 						name="password"

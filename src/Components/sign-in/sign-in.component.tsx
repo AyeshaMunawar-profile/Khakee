@@ -1,11 +1,13 @@
 import React, {useState} from "react";
-import {Typography, Form, Input, Checkbox, Col, Space, Button} from "antd";
+import {Typography, Form, Input, Checkbox, Col, Space, Button, Alert} from "antd";
 import {signInWithGoogle} from "../../Firebase/firebase.utils";
 import "./sign-in.style.scss";
 
 const {Title} = Typography;
 
 const SignIn: React.FC = () => {
+	const [isSignUpFailed, setIsSignUpFailed] = useState(false);
+	const [errorMessage, setErrorMessage] = useState<null | string>(null);
 	const layout = {
 		labelCol: {span: 8},
 		wrapperCol: {span: 16}
@@ -25,6 +27,16 @@ const SignIn: React.FC = () => {
 	const onValuesChanged = (values: any) => {
 		console.log(values);
 	};
+	const handleSignInWithGoogle = () => {
+		try {
+			signInWithGoogle();
+			setErrorMessage(null);
+			setIsSignUpFailed(false);
+		} catch (error) {
+			setErrorMessage(error?.message);
+			setIsSignUpFailed(true);
+		}
+	};
 	return (
 		<>
 			<div className="sign-in-section sub-section">
@@ -43,6 +55,16 @@ const SignIn: React.FC = () => {
 					onFinishFailed={onFinishFailed}
 					onValuesChange={onValuesChanged}
 				>
+					{isSignUpFailed && errorMessage && (
+						<Alert
+							message="Oops ! Sign up failed "
+							description={errorMessage}
+							className="u-margin-top-medium u-margin-bottom-medium"
+							type="error"
+							closable
+							showIcon
+						/>
+					)}
 					<Form.Item
 						label="Email Address"
 						name="email"
@@ -74,7 +96,7 @@ const SignIn: React.FC = () => {
 							<Button type="primary" htmlType="submit" className="btn-gradient btn-primary">
 								Sign in
 							</Button>
-							<Button type="primary" className="btn-solid btn-primary--blue" onClick={signInWithGoogle}>
+							<Button type="primary" className="btn-solid btn-primary--blue" onClick={() => handleSignInWithGoogle}>
 								Sign in with Google
 							</Button>
 						</Space>
