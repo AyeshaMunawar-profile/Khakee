@@ -13,6 +13,7 @@
     "@types/react-router": "^5.1.15",
     "antd": "^4.16.2",
     "antd-button-color": "^1.0.4",
+    "antd-password-input-strength": "^1.1.1",
     "eslint-config-prettier-check": "^1.0.0",
     "firebase": "^8.6.8",
     "firebaseui": "^4.8.0",

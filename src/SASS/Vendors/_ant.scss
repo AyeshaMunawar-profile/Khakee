@@ -55,6 +55,23 @@
 	color: $color-blue--1 !important;
 }
 
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title {
+	height: 50px !important;
+}
+
+.ant-menu-item-group:not(:first-child) {
+	margin-top: 2rem !important;
+}
+.ant-menu-item-group-title {
+	margin-bottom: 1rem !important;
+}
 
 //***************Buttons*******************************
 .ant-btn-primary.btn-gradient.btn-primary {
@@ -181,21 +198,8 @@ h1.ant-typography,
 		box-shadow: none !important;
 	}
 }
-
-.ant-menu-vertical .ant-menu-item,
-.ant-menu-vertical-left .ant-menu-item,
-.ant-menu-vertical-right .ant-menu-item,
-.ant-menu-inline .ant-menu-item,
-.ant-menu-vertical .ant-menu-submenu-title,
-.ant-menu-vertical-left .ant-menu-submenu-title,
-.ant-menu-vertical-right .ant-menu-submenu-title,
-.ant-menu-inline .ant-menu-submenu-title {
-	height: 50px !important;
+.ant-form-item-has-feedback.ant-form-item-has-success .ant-form-item-children-icon, .ant-form-item-has-feedback.ant-form-item-has-warning .ant-form-item-children-icon, .ant-form-item-has-feedback.ant-form-item-has-error .ant-form-item-children-icon, .ant-form-item-has-feedback.ant-form-item-is-validating .ant-form-item-children-icon{
+	margin-top: -13px !important;
 }
 
-.ant-menu-item-group:not(:first-child) {
-	margin-top: 2rem !important;
-}
-.ant-menu-item-group-title {
-	margin-bottom: 1rem !important;
-}
+
