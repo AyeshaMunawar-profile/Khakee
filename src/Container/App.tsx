@@ -6,10 +6,7 @@ import GalleryPage from "../Pages/gallerypage/gallerypage.component";
 import Header from "../Components/header/header.component";
 import AuthenticationPage from "../Pages/authenticationpage/authenticationpage.component";
 import {auth, createUserProfileDocument} from "../Firebase/firebase.utils";
-import "../SASS/main.scss";
-import "../CSS/antd.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "../css/custom-css/style.css";
 
 const App: React.FC = () => {
 	const [currentUser, setCurrentUser] = useState<null | any>(null);
