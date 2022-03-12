@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 .idea/workspace.xml
 .idea/jsLinters/eslint.xml
+package-lock.json
+
+.idea

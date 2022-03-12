@@ -33,7 +33,7 @@ const SignUp: React.FC = () => {
 			setErrorMessage(null);
 			swal("Welcome!", "Your account has been created successfully", "success");
 			console.log("Response from the signup call is :", user);
-		} catch (error) {
+		} catch (error: any) {
 			setIsSignUpFailed(true);
 			setErrorMessage(error.message);
 			console.error("Sign Up Failed : ", error);

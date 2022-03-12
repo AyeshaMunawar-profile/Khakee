@@ -24,7 +24,7 @@ const SignIn: React.FC = () => {
 			await auth.signInWithEmailAndPassword(email, password);
 			setIsSignUpFailed(false);
 			setErrorMessage(null);
-		} catch (error) {
+		} catch (error: any) {
 			console.error("Sign in failed : ", error);
 			setIsSignUpFailed(true);
 			setErrorMessage(error.message);
@@ -45,7 +45,7 @@ const SignIn: React.FC = () => {
 			signInWithGoogle();
 			setErrorMessage(null);
 			setIsSignUpFailed(false);
-		} catch (error) {
+		} catch (error: any) {
 			setErrorMessage(error?.message);
 			setIsSignUpFailed(true);
 		}
