@@ -9,32 +9,44 @@ import "firebase/analytics";
 
 // The data is stored using NOSQL
 // NOSQL could be simply understood as data stored as one giant json file
-// Collection is a collection of objects called as docuemnts documents has properties which stores different values inclusing a reference to a collection
+// Collection is a collection of objects called as documents documents has
+// properties which stores different values including a reference to a collection
 
 // QUERY REFERENCE AND QUERY SNAPSHOT
-// QUERY : A query is a request we make to the firestore to give us something from the database
+// QUERY : A query is a request we make to the firestore to give us something
+// from the database
 
-// Firestore returns us two types of objects : References and snapshots . Of these objects , they can be either document or collection version
+// Firestore returns us two types of objects : References and snapshots .
+// Of these objects , they can be either document or collection version
 
-// Fire store will always return us these objects even if nothing exists at from these queries
+// Fire store will always return us these objects even if nothing exists at
+// from these queries
 
 // QUERY REFERENCE
-// A query reference object is an object that represents the "current" place in the database that we are asking from
+// A query reference object is an object that represents the "current" place
+// in the database that we are asking from
 
 // we get then by calling either
 // firestore.doc('users/:userId');
 // firestore.collections('/users');
 
-// The queryReference object does not have actual data of the collection or document . It instead has properties that tells us details about it , or the method to get the snapshot object which gives us the data we need
+// The queryReference object does not have actual data of the collection or
+// document . It instead has properties that tells us details about it , or the
+// method to get the snapshot object which gives us the data we need
 
 // DOCUMENT REFERENCE VS COLLECTION REFERENCE
-// We use document reference object to perform our CRUD methods ( create , retrieve , update and delete ). The documentRef methods are .set(), .get(), .update() and .delete() respectively
+// We use document reference object to perform our CRUD methods
+// ( create , retrieve , update and delete ).
+// The documentRef methods are .set(), .get(), .update() and .delete()
+// respectively
 
-// We can also add document to collections using the collectionRef object using the .add() method  collectionRef.add({value:props})
+// We can also add document to collections using the collectionRef object using
+// the .add() method  collectionRef.add({value:props})
 
-// We get the snapshot Object from the referenceObject using the .get() method import.meta. documentRef.get() or collectionRef.get()
+// We get the snapshot Object from the referenceObject using the .get() method
+// documentRef.get() or collectionRef.get()
 
-// documentRef return a documentSnapsot Object
+// documentRef return a documentSnapshot Object
 // collectionRef returns a querySnapshot object
 
 const config = {
