@@ -1,5 +1,11 @@
 @import "../../SASS/Abstract/variables";
-
+.gallery-preview{
+	width: 98vw !important;
+	margin: 0 auto;
+}
+.slick-slider{
+	width: 100%;
+}
 .slick-list {
 	width: 100%;
 }
@@ -12,14 +18,15 @@
 .slick-track {
 	padding-top: 2rem;
 	padding-bottom: 5rem;
+	width: 100%;
 }
 .slick-next {
 	z-index: 5;
-	// right: 1% !important;
+	right: 50px !important;
 }
 .slick-prev {
 	z-index: 5;
-	// left: 1% !important;
+	left: 25px !important;
 }
 .slick-prev:before,
 .slick-next:before {

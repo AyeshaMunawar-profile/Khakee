@@ -1,11 +1,22 @@
+// ABSTRACT
 @import "Abstract/functions";
 @import "Abstract/mixins";
 @import "Abstract/variables";
+
+// BASE
 @import "Base/animations";
 @import "Base/base";
-@import "Layout/sections";
 @import "Base/typography";
 @import "Base/utilities";
-@import "Component/button";
-@import "Vendors/ant";
+
+// VENDORS
 @import "Vendors/swal";
+@import "Vendors/slick";
+@import "Vendors/slick-theme";
+
+// LAYOUT
+@import "Layout/sections";
+
+// COMPONENT
+@import "Component/button";
+

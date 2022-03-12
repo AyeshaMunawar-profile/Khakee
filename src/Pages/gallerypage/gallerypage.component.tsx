@@ -11,7 +11,7 @@ const GalleryPage: React.FC = () => {
 	return (
 		<>
 			<div>
-				<div className="section gallery-page">
+				<div className="gallery-page">
 					<Title level={1} className="section-heading--main">
 						{" "}
 						My Gallery

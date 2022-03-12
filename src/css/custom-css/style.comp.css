@@ -1,0 +1,469 @@
+@charset "UTF-8";
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+:root {
+  font-size: 62.5% !important; }
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; }
+
+a {
+  text-decoration: none; }
+
+.section-heading {
+  font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal !important;
+  text-align: center; }
+
+.section-heading--main {
+  font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 4rem !important;
+  color: #343539 !important;
+  margin-top: 7rem !important;
+  margin-bottom: 7rem !important;
+  font-weight: normal !important;
+  text-align: center; }
+
+.section-heading--main::after {
+  content: "";
+  width: 5rem;
+  text-align: center;
+  border-bottom: 3px solid #20bdd7;
+  display: block;
+  margin: 3rem auto auto; }
+
+.section-heading--sub {
+  font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 3rem !important;
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important; }
+
+.section-heading--paragraph {
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem !important;
+  font-weight: normal !important;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important; }
+
+@font-face {
+  font-family: "Brusher";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Brusher"), url("../../Common/fonts/Brusher-Regular.otf") format("otf");
+  src: local("Brusher"), url("../../Common/fonts/Brusher-Regular.eot") format("eot");
+  src: local("Brusher"), url("../../Common/fonts/Brusher-Regular.ttf") format("ttf"); }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-right-text {
+  text-align: right !important; }
+
+.u-left-text {
+  text-align: left !important; }
+
+.u-margin-bottom-huge {
+  margin-bottom: 10rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-top-small {
+  margin-top: 1.5rem !important; }
+
+.u-margin-top-medium {
+  margin-top: 4rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.z-index--2 {
+  z-index: -2 !important; }
+
+.z-index--1 {
+  z-index: -1 !important; }
+
+.z-index-0 {
+  z-index: 0 !important; }
+
+.z-index-1 {
+  z-index: 1 !important; }
+
+.z-index-2 {
+  z-index: 2 !important; }
+
+.d-flex {
+  display: flex !important; }
+
+.d-justify-center {
+  justify-content: center !important; }
+
+.d-align-items-stretch {
+  align-items: stretch !important; }
+
+.h-cursor-pointer:hover {
+  cursor: pointer !important; }
+
+.font-decor {
+  font-family: "Brusher", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.font-primary {
+  font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.font-secondary {
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.font-weight-bold {
+  font-weight: bold !important; }
+
+.font-weight-bolder {
+  font-weight: bolder !important; }
+
+.font-weight-normal {
+  font-weight: normal !important; }
+
+.font-weight-lighter {
+  font-weight: lighter !important; }
+
+.letter-spacing-small {
+  letter-spacing: 0.3px !important; }
+
+.swal-overlay {
+  background-color: rgba(98, 99, 106, 0.45); }
+
+.swal-title {
+  font-family: "Open Sans", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-text {
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-button {
+  color: white;
+  background: linear-gradient(-45deg, #5AD0E5, #B37DEC, #ef62a6, #ffa56b, #FFE324) !important;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-button:hover,
+.swal-button:active,
+.swal-button:focus {
+  color: white;
+  background: linear-gradient(-45deg, #20bdd7, #a65bf8, #e1439d, #fc984f, #f5ce0b) !important;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-button--success {
+  color: white;
+  background-color: #71E096;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-button--success:hover,
+.swal-button--success:active,
+.swal-button--success:focus {
+  color: white;
+  background-color: #41d46b;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-button--error {
+  color: white;
+  background-color: #ED6D79;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-button--error:hover,
+.swal-button--error:active,
+.swal-button--error:focus {
+  color: white;
+  background-color: #e55371;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-button--warning {
+  color: white;
+  background-color: #ffa56b;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-button--warning:hover,
+.swal-button--warning:active,
+.swal-button--warning:focus {
+  color: white;
+  background-color: #fc984f;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-button--info {
+  color: white;
+  background-color: #5AD0E5;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-button--info:hover,
+.swal-button--info:active,
+.swal-button--info:focus {
+  color: white;
+  background-color: #20bdd7;
+  border: none !important;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.swal-footer {
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -html-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none; }
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  .slick-slide img {
+    display: block; }
+  .slick-slide.slick-loading img {
+    display: none; }
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  .slick-initialized .slick-slide {
+    display: block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+/* Slider */
+.slick-loading .slick-list {
+  background: #fff url("./ajax-loader.gif") center center no-repeat; }
+
+/* Icons */
+@font-face {
+  font-family: "slick";
+  src: url("./fonts/slick.eot");
+  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  line-height: 0px;
+  font-size: 0px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none; }
+  .slick-prev:hover, .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+    outline: none;
+    background: transparent;
+    color: transparent; }
+    .slick-prev:hover:before, .slick-prev:focus:before,
+    .slick-next:hover:before,
+    .slick-next:focus:before {
+      opacity: 1; }
+  .slick-prev.slick-disabled:before,
+  .slick-next.slick-disabled:before {
+    opacity: 0.25; }
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 1;
+    color: white;
+    opacity: 0.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+.slick-prev {
+  left: -25px; }
+  [dir="rtl"] .slick-prev {
+    left: auto;
+    right: -25px; }
+  .slick-prev:before {
+    content: "←"; }
+    [dir="rtl"] .slick-prev:before {
+      content: "→"; }
+
+.slick-next {
+  right: -25px; }
+  [dir="rtl"] .slick-next {
+    left: -25px;
+    right: auto; }
+  .slick-next:before {
+    content: "→"; }
+    [dir="rtl"] .slick-next:before {
+      content: "←"; }
+
+/* Dots */
+.slick-dotted.slick-slider {
+  margin-bottom: 30px; }
+
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer; }
+    .slick-dots li button {
+      border: 0;
+      background: transparent;
+      display: block;
+      height: 20px;
+      width: 20px;
+      outline: none;
+      line-height: 0px;
+      font-size: 0px;
+      color: transparent;
+      padding: 5px;
+      cursor: pointer; }
+      .slick-dots li button:hover, .slick-dots li button:focus {
+        outline: none; }
+        .slick-dots li button:hover:before, .slick-dots li button:focus:before {
+          opacity: 1; }
+      .slick-dots li button:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "•";
+        width: 20px;
+        height: 20px;
+        font-family: "slick";
+        font-size: 6px;
+        line-height: 20px;
+        text-align: center;
+        color: black;
+        opacity: 0.25;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+    .slick-dots li.slick-active button:before {
+      color: black;
+      opacity: 0.75; }
+
+.section {
+  width: 100%;
+  padding: 7rem 0; }
+
+.sub-section {
+  width: 100%;
+  padding: 5rem 0; }
+
+.btn-primary--black {
+  background-color: #0f0e0c !important;
+  border: none !important; }
+
+.btn-primary--black:hover,
+.btn-primary--black:active,
+.btn-primary--black:focus {
+  background-color: white !important;
+  border: 2px solid #0f0e0c !important;
+  color: #0f0e0c !important; }
+
+.ant-btn-primary.btn-solid.btn-primary {
+  background: linear-gradient(to top left, #5AD0E5, #B37DEC, #ef62a6, #ffa56b, #ffe754) !important;
+  border: none !important;
+  color: #fafafa !important; }
+
+.ant-btn-primary.btn-solid.btn-primary:hover,
+.ant-btn-primary.btn-solid.btn-primary:active,
+.ant-btn-primary.btn-solid.btn-primary:focus {
+  background: linear-gradient(to top left, #20bdd7, #a65bf8, #e1439d, #fc984f, #FFE324) !important;
+  border: none !important; }
