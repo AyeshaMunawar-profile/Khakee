@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89024307-9d6a-4db3-966b-b7b76b66d603" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,34 +66,37 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../currency-converter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/res/fonts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="D:\My Coding Projects\Khakee\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\My Coding Projects\Khakee\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="D:\My Coding Projects\Khakee\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My Coding Projects\Khakee\src\res\fonts" />
+      <recent name="D:\My Coding Projects\Khakee\src\SASS\Vendors" />
       <recent name="D:\My Coding Projects\Khakee\public\Common\images\shop-items\portraits" />
       <recent name="D:\My Coding Projects\Khakee\public" />
       <recent name="D:\Practice Projects\Khakee\khakee\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My Coding Projects\Khakee\src\css\custom-css" />
+      <recent name="D:\My Coding Projects\Khakee\src\res\slick" />
       <recent name="D:\My Coding Projects\Khakee\src\Less" />
       <recent name="D:\My Coding Projects\Khakee\src\Common\fonts" />
       <recent name="D:\Khakee\src\Components\menu-item" />
-      <recent name="D:\Khakee\src\Pages\homepage" />
-      <recent name="D:\Khakee\src\Container" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -138,6 +141,11 @@
       <workItem from="1625207106000" duration="6113000" />
       <workItem from="1625381052462" duration="282000" />
       <workItem from="1625381379382" duration="15136000" />
+      <workItem from="1630250689976" duration="76000" />
+      <workItem from="1630431380577" duration="832000" />
+      <workItem from="1630488727058" duration="3023000" />
+      <workItem from="1630829672256" duration="611000" />
+      <workItem from="1647079521812" duration="10092000" />
     </task>
     <servers />
   </component>
@@ -164,7 +172,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/node_modules/antd/dist/default-theme.js</url>
-          <line>326</line>
+          <line>350</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
